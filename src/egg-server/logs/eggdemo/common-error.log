@@ -1,0 +1,408 @@
+2017-06-27 16:51:06,114 ERROR 20384 nodejs.unhandledExceptionError: read ECONNRESET
+    at exports._errnoException (util.js:1016:11)
+    at TCP.onread (net.js:609:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 20384
+hostname: G-PC
+
+2017-06-28 10:53:31,864 ERROR 11880 [-/::1/-/16ms GET /user/T250] nodejs.ReferenceError: userid is not defined
+    at UserController.show (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\app\controller\user.js:11:56)
+    at show.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:50:10)
+    at Object.toPromise (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:118:63)
+    at next (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:99:29)
+    at onFulfilled (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:69:7)
+    at c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:54:5
+
+pid: 11880
+hostname: G-PC
+
+2017-06-28 10:53:37,593 ERROR 11880 [-/::1/-/0ms GET /user/T250] nodejs.ReferenceError: userid is not defined
+    at UserController.show (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\app\controller\user.js:11:56)
+    at show.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:50:10)
+    at Object.toPromise (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:118:63)
+    at next (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:99:29)
+    at onFulfilled (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:69:7)
+    at c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:54:5
+
+pid: 11880
+hostname: G-PC
+
+2017-06-28 10:53:45,091 ERROR 11880 [-/::1/-/1ms GET /user/T250] nodejs.ReferenceError: userid is not defined
+    at UserController.show (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\app\controller\user.js:11:56)
+    at show.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:50:10)
+    at Object.toPromise (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:118:63)
+    at next (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:99:29)
+    at onFulfilled (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:69:7)
+    at c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:54:5
+
+pid: 11880
+hostname: G-PC
+
+2017-06-28 10:53:47,186 ERROR 15060 [-/::1/-/9ms GET /user/T250] nodejs.ReferenceError: uid is not defined
+    at UserController.show (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\app\controller\user.js:11:56)
+    at show.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:50:10)
+    at Object.toPromise (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:118:63)
+    at next (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:99:29)
+    at onFulfilled (c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:69:7)
+    at c:\Users\Administrator\Desktop\学习代码\vue学习\eggdemo\node_modules\co\index.js:54:5
+
+pid: 15060
+hostname: G-PC
+
+2017-07-06 21:18:48,824 ERROR 3076 [-/127.0.0.1/-/11ms POST /user] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '123' for key 'PRIMARY'
+    at Query.Sequence._packetToError (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    --------------------
+    at Pool.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Pool.js:199:23)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:29:7
+    at Promise (<anonymous>)
+    at Pool.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    sql: INSERT INTO `user`(`uid`) VALUES('123')
+code: 'ER_DUP_ENTRY'
+errno: 1062
+sqlState: '23000'
+index: 0
+name: 'ER_DUP_ENTRYError'
+pid: 3076
+hostname: G-PC
+
+2017-07-10 17:25:15,885 ERROR 6632 [-/127.0.0.1/-/142ms PUT /user/T2508] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'id' in 'where clause'
+    at Query.Sequence._packetToError (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    --------------------
+    at Pool.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Pool.js:199:23)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:29:7
+    at Promise (<anonymous>)
+    at Pool.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    sql: UPDATE `user` SET `username` = 'polo1', `password` = '123456', `sex` = '1', `mb` = '15757115064', `apartment` = 'B2B', `score` = 20, `createtime` = '2017-06-26T07:47:09.000Z' WHERE `id` = 'T2508'
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 6632
+hostname: G-PC
+
+2017-07-10 17:25:58,000 ERROR 27672 [-/127.0.0.1/-/34ms PUT /user/T2508] nodejs.Error: Can't not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:152:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    at Promise (<anonymous>)
+    at RDSClient.co (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:50:10)
+    at RDSClient.createPromise [as update] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:30:15)
+    at UserService.update (C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js:37:38)
+    at update.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+
+pid: 27672
+hostname: G-PC
+
+2017-07-10 17:26:07,087 ERROR 27672 [-/127.0.0.1/-/1ms PUT /user/T2508] nodejs.Error: Can't not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:152:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    at Promise (<anonymous>)
+    at RDSClient.co (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:50:10)
+    at RDSClient.createPromise [as update] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:30:15)
+    at UserService.update (C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js:37:38)
+    at update.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+
+pid: 27672
+hostname: G-PC
+
+2017-07-10 20:31:37,375 ERROR 27672 [-/127.0.0.1/-/2ms PUT /user/T2508] nodejs.Error: Can't not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:152:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    at Promise (<anonymous>)
+    at RDSClient.co (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:50:10)
+    at RDSClient.createPromise [as update] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:30:15)
+    at UserService.update (C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js:37:38)
+    at update.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+
+pid: 27672
+hostname: G-PC
+
+2017-07-11 09:57:40,489 ERROR 19784 [-/127.0.0.1/-/4ms PUT /user/12] nodejs.Error: Can't not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:152:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    at Promise (<anonymous>)
+    at RDSClient.co (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:50:10)
+    at RDSClient.createPromise [as update] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:30:15)
+    at UserService.update (C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js:37:38)
+    at update.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+
+pid: 19784
+hostname: G-PC
+
+2017-07-11 10:13:22,822 ERROR 15348 [-/127.0.0.1/-/27ms PUT /user/12] nodejs.Error: Can't not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:152:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    at Promise (<anonymous>)
+    at RDSClient.co (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:50:10)
+    at RDSClient.createPromise [as update] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:30:15)
+    at UserService.update (C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js:37:38)
+    at update.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+
+pid: 15348
+hostname: G-PC
+
+2017-07-11 10:13:40,714 ERROR 15348 [-/127.0.0.1/-/1ms PUT /user/12] nodejs.Error: Can't not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:152:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    at Promise (<anonymous>)
+    at RDSClient.co (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:50:10)
+    at RDSClient.createPromise [as update] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:30:15)
+    at UserService.update (C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js:37:38)
+    at update.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+
+pid: 15348
+hostname: G-PC
+
+2017-07-11 11:06:29,257 ERROR 21072 [-/127.0.0.1/-/76ms POST /user] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '12' for key 'PRIMARY'
+    at Query.Sequence._packetToError (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    --------------------
+    at Pool.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Pool.js:199:23)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:29:7
+    at Promise (<anonymous>)
+    at Pool.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    sql: INSERT INTO `user`(`uid`, `username`, `password`, `sex`, `mb`, `apartment`, `score`, `createtime`) VALUES('12', '阿里巴巴22', '123456', '1', '12', 'MB', '20', '2017-07-11T02:52:47.000Z')
+code: 'ER_DUP_ENTRY'
+errno: 1062
+sqlState: '23000'
+index: 0
+name: 'ER_DUP_ENTRYError'
+pid: 21072
+hostname: G-PC
+
+2017-07-11 11:06:55,596 ERROR 21072 [-/127.0.0.1/-/2ms POST /user] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '12' for key 'PRIMARY'
+    at Query.Sequence._packetToError (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    --------------------
+    at Pool.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Pool.js:199:23)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:29:7
+    at Promise (<anonymous>)
+    at Pool.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    sql: INSERT INTO `user`(`uid`, `username`, `password`, `sex`, `mb`, `apartment`, `score`, `createtime`) VALUES('12', '阿里巴巴22', '123456', '1', '12', 'MB', '20', '2017-07-11T02:52:47.000Z')
+code: 'ER_DUP_ENTRY'
+errno: 1062
+sqlState: '23000'
+index: 0
+name: 'ER_DUP_ENTRYError'
+pid: 21072
+hostname: G-PC
+
+2017-07-11 11:08:38,280 ERROR 13284 [-/127.0.0.1/-/31ms POST /user] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '122' for key 'PRIMARY'
+    at Query.Sequence._packetToError (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    --------------------
+    at Pool.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Pool.js:199:23)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:29:7
+    at Promise (<anonymous>)
+    at Pool.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    sql: INSERT INTO `user`(`uid`, `username`, `password`, `sex`, `mb`, `apartment`, `score`, `createtime`) VALUES('122', '阿里巴巴22', '123456', '1', '12', 'MB', '20', '2017-07-11T02:52:47.000Z')
+code: 'ER_DUP_ENTRY'
+errno: 1062
+sqlState: '23000'
+index: 0
+name: 'ER_DUP_ENTRYError'
+pid: 13284
+hostname: G-PC
+
+2017-07-11 11:08:46,317 ERROR 13284 [-/127.0.0.1/-/2ms POST /user] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '122' for key 'PRIMARY'
+    at Query.Sequence._packetToError (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    --------------------
+    at Pool.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Pool.js:199:23)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:29:7
+    at Promise (<anonymous>)
+    at Pool.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    sql: INSERT INTO `user`(`uid`, `username`, `password`, `sex`, `mb`, `apartment`, `score`, `createtime`) VALUES('122', '阿里巴巴22', '123456', '1', '12', 'MB', '20', '2017-07-11T02:52:47.000Z')
+code: 'ER_DUP_ENTRY'
+errno: 1062
+sqlState: '23000'
+index: 0
+name: 'ER_DUP_ENTRYError'
+pid: 13284
+hostname: G-PC
+
+2017-07-11 11:09:26,257 ERROR 19644 [-/127.0.0.1/-/30ms POST /user] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '122' for key 'PRIMARY'
+    at Query.Sequence._packetToError (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    --------------------
+    at Pool.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Pool.js:199:23)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:29:7
+    at Promise (<anonymous>)
+    at Pool.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    sql: INSERT INTO `user`(`uid`, `username`, `password`, `sex`, `mb`, `apartment`, `score`, `createtime`) VALUES('122', '阿里巴巴22', '123456', '1', '12', 'MB', '20', '2017-07-11T02:52:47.000Z')
+code: 'ER_DUP_ENTRY'
+errno: 1062
+sqlState: '23000'
+index: 0
+name: 'ER_DUP_ENTRYError'
+pid: 19644
+hostname: G-PC
+
+2017-07-11 11:10:11,616 ERROR 19904 [-/127.0.0.1/-/30ms POST /user] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '122' for key 'PRIMARY'
+    at Query.Sequence._packetToError (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    --------------------
+    at Pool.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Pool.js:199:23)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:29:7
+    at Promise (<anonymous>)
+    at Pool.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    sql: INSERT INTO `user`(`uid`, `username`, `password`, `sex`, `mb`, `apartment`, `score`, `createtime`) VALUES('122', '阿里巴巴22', '123456', '1', '12', 'MB', '20', '2017-07-11T02:52:47.000Z')
+code: 'ER_DUP_ENTRY'
+errno: 1062
+sqlState: '23000'
+index: 0
+name: 'ER_DUP_ENTRYError'
+pid: 19904
+hostname: G-PC
+

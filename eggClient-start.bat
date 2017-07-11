@@ -1,0 +1,1 @@
+cd ./src/egg-server && start start.bat
