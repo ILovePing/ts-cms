@@ -232,3 +232,96 @@
 2017-07-11 20:55:16,768 WARN 260 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
 2017-07-11 20:55:18,152 WARN 260 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\config\config.default.js change
 2017-07-11 20:55:21,277 WARN 260 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 09:38:18,616 INFO 13508 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-12 09:38:21,234 INFO 13508 [egg-watcher:agent] watcher start success
+2017-07-12 10:00:34,500 INFO 20836 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-12 10:00:35,491 INFO 20836 [egg-watcher:agent] watcher start success
+2017-07-12 15:06:32,727 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\router.js change
+2017-07-12 15:06:41,795 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 15:07:11,468 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\router.js change
+2017-07-12 15:07:33,549 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 15:08:43,909 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\middleware\add_token.js change
+2017-07-12 15:12:21,098 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\middleware\add_token.js change
+2017-07-12 15:12:23,940 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 15:13:00,170 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 15:13:02,801 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 15:13:18,726 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 15:13:21,371 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 15:13:35,039 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\middleware\add_token.js change
+2017-07-12 15:13:35,410 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\middleware\add_token.js change
+2017-07-12 15:13:36,478 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\middleware\add_token.js change
+2017-07-12 15:13:38,150 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 15:13:39,151 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\middleware\add_token.js change
+2017-07-12 15:13:41,134 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 15:13:58,449 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\config\config.default.js change
+2017-07-12 15:13:58,750 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\config\config.default.js change
+2017-07-12 15:13:58,999 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\config\config.default.js change
+2017-07-12 15:14:01,434 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 15:14:04,584 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 15:25:28,834 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js change
+2017-07-12 15:25:32,294 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 15:25:45,826 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js change
+2017-07-12 15:25:49,137 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 15:25:51,475 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js change
+2017-07-12 15:25:54,830 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 15:25:57,964 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js change
+2017-07-12 15:25:58,533 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js change
+2017-07-12 15:26:01,475 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 15:26:04,305 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 16:13:16,298 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js change
+2017-07-12 16:13:19,172 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 16:13:36,541 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js change
+2017-07-12 16:13:39,229 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js change
+2017-07-12 16:13:39,398 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 16:13:42,066 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 16:13:43,998 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js change
+2017-07-12 16:13:44,398 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js change
+2017-07-12 16:13:47,015 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 16:13:47,935 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js change
+2017-07-12 16:13:48,294 WARN 20836 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\service\user.js change
+2017-07-12 16:13:50,285 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 16:13:53,001 WARN 20836 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 17:21:01,820 INFO 25356 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-12 17:21:04,349 INFO 25356 [egg-watcher:agent] watcher start success
+2017-07-12 19:50:00,033 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 19:50:08,552 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:03:44,630 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:03:47,956 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:06:25,143 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:06:28,736 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:06:48,179 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:06:51,339 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:06:58,044 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:07:01,081 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:07:04,116 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:07:06,341 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:07:07,157 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:07:08,385 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:07:08,703 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:07:10,851 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:07:14,071 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:08:17,004 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:08:19,815 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:18:58,135 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:19:49,092 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:20:09,380 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:20:15,607 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:20:57,574 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:21:00,831 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:21:50,073 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\middleware\error_handler.js change
+2017-07-12 20:21:56,201 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:22:39,820 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\middleware\error_handler.js change
+2017-07-12 20:22:43,641 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:23:21,141 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:23:24,195 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:24:53,721 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:24:56,506 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:35:16,588 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\middleware\add_token.js change
+2017-07-12 20:35:19,528 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:35:38,435 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:35:41,581 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:36:09,049 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:36:12,549 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:36:32,646 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-12 20:36:35,543 WARN 25356 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-12 20:36:59,581 WARN 25356 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change

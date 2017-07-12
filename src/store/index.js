@@ -8,6 +8,7 @@ Vue.use(Vuex);
 // 先写个state数据
 const state = {
   userlist:[],
+  login:false
 };
 
 export default new Vuex.Store({

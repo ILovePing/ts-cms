@@ -39,7 +39,16 @@
       "domainWhiteList": [],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
-      "csrf": false,
+      "csrf": {
+        "enable": true,
+        "useSession": false,
+        "ignoreJSON": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf"
+      },
       "xframe": {
         "enable": true,
         "value": "SAMEORIGIN"
@@ -231,14 +240,14 @@
       "overrideMethod"
     ],
     "workerStartTimeout": 600000,
-    "news": {
-      "pageSize": 5,
-      "serverUrl": "https://hacker-news.firebaseio.com/v0"
-    },
     "middleware": [
       "robot",
-      "errorHandler"
+      "errorHandler",
+      "addToken"
     ],
+    "errorHandler": {
+      "match": "/"
+    },
     "robot": {
       "ua": [
         {}
@@ -253,11 +262,13 @@
     ],
     "appMiddlewares": [
       "robot",
-      "errorHandler"
+      "errorHandler",
+      "addToken"
     ],
     "appMiddleware": [
       "robot",
-      "errorHandler"
+      "errorHandler",
+      "addToken"
     ]
   },
   "plugins": {

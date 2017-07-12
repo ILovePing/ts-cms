@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div id="indexContainer">
 
-    <el-row id="app-row">
+    <el-row id="index-row">
       <el-col :span="24">
         <h1 class="web-title">俱乐部管理平台</h1>
       </el-col>
@@ -26,7 +26,6 @@
 
 <script>
 export default {
-  name: 'app',
   data() {
     return {
       menu: {
@@ -54,10 +53,10 @@ export default {
 
 
 <style lang="scss">
-html,body,#app,#app-row{
+html,body,#indexContainer,#index-row{
   height: 100%;
 }
-#app {
+#indexContainer {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

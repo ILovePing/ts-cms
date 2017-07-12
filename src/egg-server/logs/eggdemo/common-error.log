@@ -406,3 +406,93 @@ name: 'ER_DUP_ENTRYError'
 pid: 19904
 hostname: G-PC
 
+2017-07-12 15:13:41,108 ERROR 20836 nodejs.unhandledExceptionError: read ECONNRESET
+    at exports._errnoException (util.js:1016:11)
+    at TCP.onread (net.js:609:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 20836
+hostname: G-PC
+
+2017-07-12 16:13:50,247 ERROR 20836 nodejs.unhandledExceptionError: read ECONNRESET
+    at exports._errnoException (util.js:1016:11)
+    at TCP.onread (net.js:609:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 20836
+hostname: G-PC
+
+2017-07-12 20:07:10,777 ERROR 25356 nodejs.unhandledExceptionError: read ECONNRESET
+    at exports._errnoException (util.js:1016:11)
+    at TCP.onread (net.js:609:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 25356
+hostname: G-PC
+
+2017-07-12 20:20:21,295 ERROR 22268 [-/127.0.0.1/-/75ms POST /login] nodejs.TypeError: Cannot read property 'result' of undefined
+    at UserController.login (C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js:45:18)
+    at login.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+
+pid: 22268
+hostname: G-PC
+
+2017-07-12 20:20:44,606 ERROR 22268 [-/127.0.0.1/-/32ms POST /login] nodejs.TypeError: Cannot read property 'result' of undefined
+    at UserController.login (C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js:45:18)
+    at login.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+
+pid: 22268
+hostname: G-PC
+
+2017-07-12 20:21:08,699 ERROR 1992 [-/127.0.0.1/-/66ms POST /login] nodejs.TypeError: Cannot read property 'result' of undefined
+    at UserController.login (C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js:45:18)
+    at login.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+
+pid: 1992
+hostname: G-PC
+
+2017-07-12 20:22:02,832 ERROR 27524 [-/127.0.0.1/-/82ms POST /login] nodejs.TypeError: Cannot read property 'result' of undefined
+    at UserController.login (C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js:45:18)
+    at login.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+
+pid: 27524
+hostname: G-PC
+
+2017-07-12 20:23:01,722 ERROR 16696 [-/127.0.0.1/-/62ms POST /login] nodejs.TypeError: Cannot read property 'result' of undefined
+    at UserController.login (C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js:45:18)
+    at login.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+
+pid: 16696
+hostname: G-PC
+
+2017-07-12 20:23:36,724 ERROR 18208 [-/127.0.0.1/-/56ms POST /login] nodejs.TypeError: Cannot read property 'result' of undefined
+    at UserController.login (C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js:45:18)
+    at login.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:169:7)
+
+pid: 18208
+hostname: G-PC
+

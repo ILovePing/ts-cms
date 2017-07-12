@@ -94,3 +94,19 @@ message: 'invalid csrf token'
 pid: 17500
 hostname: G-PC
 
+2017-07-12 15:37:55,195 WARN 16368 [-/127.0.0.1/-/153ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-07-12 15:37:55,199 WARN 16368 [-/127.0.0.1/-/156ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.1.4.0@koa\lib\context.js:89:23)
+    at Object.assertCsrf (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.1.11.0@egg-security\app\extend\context.js:148:17)
+    at Object.csrf (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.1.11.0@egg-security\lib\middlewares\csrf.js:30:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.5.1@koa-compose\index.js:28:19)
+    at Generator.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    at Promise (<anonymous>)
+    at Object.co (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:50:10)
+message: 'invalid csrf token'
+pid: 16368
+hostname: G-PC
+

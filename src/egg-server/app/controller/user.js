@@ -36,6 +36,32 @@ module.exports = app => {
       ctx.body = res;
       ctx.status = 200;
     }
+    //登录controller
+    * login(){
+      const ctx = this.ctx
+      const postdata  = ctx.request.body
+      const res = yield ctx.service.user.login(postdata);
+      let success = false;
+      if(res.result){
+        success = true;
+        let {uid} = res.result;
+        ctx.session.uid = uid;//session默认是用cookie存储的需要改用redis存储
+        // console.log(ctx.session.uid)
+      }
+      ctx.body = {
+        success,
+      };
+      ctx.status = 200;
+
+    }
+    * logout(){
+      const ctx = this.ctx
+      ctx.session = null;
+      ctx.body = {
+        success: true,
+      };
+      ctx.status = 200;
+    }
   }
   return UserController;
 };

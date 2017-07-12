@@ -279,7 +279,8 @@
     "workerStartTimeout": 600000,
     "middleware": [
       "robot",
-      "errorHandler"
+      "errorHandler",
+      "addToken"
     ],
     "errorHandler": {
       "match": "/"
@@ -302,11 +303,13 @@
     ],
     "appMiddlewares": [
       "robot",
-      "errorHandler"
+      "errorHandler",
+      "addToken"
     ],
     "appMiddleware": [
       "robot",
-      "errorHandler"
+      "errorHandler",
+      "addToken"
     ],
     "multipartParseOptions": {
       "autoFields": false,

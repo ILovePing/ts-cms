@@ -5,7 +5,7 @@ import Router from 'vue-router'
 Vue.use(Router)
 const routes = [{
   path: '/login',
-  name: 'index',
+  name: 'login',
   component: resolve => require(['@/view/Login'],resolve)
 },{
   path: '/',
