@@ -5,6 +5,7 @@ import {
 import { showMsg } from '../actions'
 import api from '../../api/api'
 import router from '../../router/index'
+// console.log()
 const state = {
   status:false,
   username:'',
@@ -14,11 +15,10 @@ const actions = {
   logIn(store,loginData){
     api.userLogin(loginData).then(res => {
         if(res.data.success){
-          showMsg(store,'登陆成功','success')
-          console.log(router)
-          // setTimeout(function(router){
-            router.push({path:'/'})
-          // },2000)
+          store.commit(LOG_IN,'12341')
+          // showMsg(store,'登陆成功','success')
+          console.log(router.push('/'));
+          console.log(showMsg);
         }
       },res=>{
          showMsg(store,res.data.error_msg || '登陆接口出错')
