@@ -1,10 +1,8 @@
 import * as types from './mutation-types'
-import api from '../api/api'
 
-export default {
-  getUserList({commit}){
-    api.userListQry((res)=>{
-      commit(types.GET_USER_LIST,res);
-    })
-  }
-};
+export const showMsg = ({commit}, message,type='error') => {
+  commit(types.SHOW_MSG, {message,type})
+}
+export const hideMsg = ({commit}) => {
+  commit(types.HIDE_MSG)
+}

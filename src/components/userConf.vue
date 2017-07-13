@@ -8,7 +8,7 @@
       </el-col>
       <el-col :span="24">
     <el-table
-      :data="this.$store.state.userlist"
+      :data="userlist"
       highlight-current-row>
       <el-table-column
       type="index"
@@ -90,8 +90,6 @@
         <el-option label="SNS" value="SNS"></el-option>
         <el-option label="B2C" value="B2C"></el-option>
         <el-option label="手机" value="MB"></el-option>
-        <el-option label="账户" value="ZH"></el-option>
-        <el-option label="国承信" value="GCX"></el-option>
       </el-select>
     </el-form-item>
     <el-form-item label="联系方式" :label-width="formLabelWidth">
@@ -108,10 +106,11 @@
 </template>
 
 <script>
-import api from '../api/api';
+import api from '../api/api'
+import { mapState, mapActions } from 'vuex'
   export default {
     created:function(){
-      this.refreshTable();
+      this.getUserList();
     },
     data() {
       return {
@@ -127,10 +126,15 @@ import api from '../api/api';
         actionType:1,//1默认代表create操作，2代表更新操作
       }
     },
+    computed:{
+      ...mapState({
+        userlist: ({user}) => user.userlist
+      })
+    },
     methods: {
-      refreshTable(){
-        this.$store.dispatch('getUserList')
-      },
+      ...mapActions([
+        'getUserList'
+      ]),
       sexFormatter(row, column){
       return row.sex === '1'?'男':'女';
       },
@@ -142,7 +146,7 @@ import api from '../api/api';
           if(data.result.affectedRows === 1){//插入成功，刷新表单
             this.dialogFormVisible = false;
             for(let i in this.form){this.form[i] = '';}
-            this.refreshTable();
+            this.getUserList();
           }else{
             console.log(data)
           }
@@ -153,7 +157,7 @@ import api from '../api/api';
           if(data.result.affectedRows === 1){//修改成功，刷新表单
             this.dialogFormVisible = false;
             this.actionType = 1;
-            this.refreshTable();
+            this.getUserList();
           }else{
             console.log(data)
           }
@@ -169,7 +173,7 @@ import api from '../api/api';
         api.userDelete(row.uid,(data)=>{
           if(data.result.affectedRows === 1){
             console.log('删除成功')
-            this.refreshTable();
+            this.getUserList();
           }else{
             console.log(data.result.message)
           }

@@ -43,21 +43,14 @@ export  default {
   /*
    * 获取用户列表信息
    * */
-  userListQry:function (cb) {
-      axios.get('/api/user').then(function (res) {
-          setTimeout(()=>{
-            cb(res.data)
-          },300)
-      });
+  userListQry() {
+    return axios.get('/api/user')
   },
-  userLogin:function(postdata,cb){
-    axios.post('/api/login',postdata).then(function (res) {
-        setTimeout(()=>{
-          console.log(res)
-          cb(res.data)
-        },300)
-
-    });
+  userLogin(postdata){
+    return axios.post('/api/login',postdata)
+  },
+  userLogOut(){
+    return axios.post('/api/logout')
   },
   userInsert:function(user,cb){
     axios.post('/api/user',user).then(function (res) {

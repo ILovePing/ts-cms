@@ -1,16 +1,16 @@
 module.exports = appInfo => {
   const config = {};
   config.keys = '123123123';
-  config.view = {
-    defaultViewEngine: 'nunjucks',
-    mapping: {
-      '.tpl': 'nunjucks',
-    },
-  };
+  // config.view = {
+  //   defaultViewEngine: 'nunjucks',
+  //   mapping: {
+  //     '.tpl': 'nunjucks',
+  //   },
+  // };
   config.middleware = [
   'robot',
   'errorHandler',
-  'addToken'
+  'saveSession'
   ];
   config.errorHandler = {
     // 非 `/api/` 路径不在这里做错误处理，留给默认的 onerror 插件统一处理

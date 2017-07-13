@@ -148,10 +148,8 @@
       ],
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "nunjucks",
-      "mapping": {
-        ".tpl": "nunjucks"
-      }
+      "defaultViewEngine": "",
+      "mapping": {}
     },
     "nunjucks": {
       "autoescape": true,
@@ -280,7 +278,7 @@
     "middleware": [
       "robot",
       "errorHandler",
-      "addToken"
+      "saveSession"
     ],
     "errorHandler": {
       "match": "/"
@@ -304,12 +302,12 @@
     "appMiddlewares": [
       "robot",
       "errorHandler",
-      "addToken"
+      "saveSession"
     ],
     "appMiddleware": [
       "robot",
       "errorHandler",
-      "addToken"
+      "saveSession"
     ],
     "multipartParseOptions": {
       "autoFields": false,

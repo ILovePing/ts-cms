@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div id="" style="margin-top:300px;">
     <el-row>
       <el-col :span="3" :offset="6">
@@ -23,11 +23,11 @@
 </template>
 
 <script>
-import { mapMutations } from 'vuex'
-import api from '../api/api';
+import { mapState, mapActions } from 'vuex'
   export default {
     data() {
       return {
+
         ruleForm: {
           username: '',
           password: '',
@@ -43,26 +43,26 @@ import api from '../api/api';
         }
       };
     },
+    computed:{
+      ...mapState({
+        message: ({showmsg}) => showmsg.message
+      })
+    },
+    watch: {
+      'message': 'alterMsg'
+    },
     methods: {
-      ...mapMutations({
-        logIn: 'TOGGLE_LOG_STATUS'
-      }),
+      ...mapActions([
+        'logIn'
+      ]),
+      alterMsg(){
+        console.log(123)
+	       this.$message(this.message);
+      },
       submitForm(formName) {
         this.$refs[formName].validate((valid) => {
           if (valid) {
-            api.userLogin(this.ruleForm,(data)=>{
-              if(data.success){
-                this.logIn()
-                this.$message({
-                  message: '登录成功，即将跳转到主页',
-                  type: 'success'
-                });
-                let that = this
-                setTimeout(function(){
-                  that.$router.replace(that.$route.query.redirect || '/')
-                },2000)
-              }
-            })
+            this.logIn(this.ruleForm)
           } else {
             console.log('error submit!!');
             return false;

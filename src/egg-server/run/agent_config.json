@@ -116,10 +116,8 @@
       "root": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "nunjucks",
-      "mapping": {
-        ".tpl": "nunjucks"
-      }
+      "defaultViewEngine": "",
+      "mapping": {}
     },
     "nunjucks": {
       "autoescape": true,
@@ -243,7 +241,7 @@
     "middleware": [
       "robot",
       "errorHandler",
-      "addToken"
+      "saveSession"
     ],
     "errorHandler": {
       "match": "/"
@@ -263,12 +261,12 @@
     "appMiddlewares": [
       "robot",
       "errorHandler",
-      "addToken"
+      "saveSession"
     ],
     "appMiddleware": [
       "robot",
       "errorHandler",
-      "addToken"
+      "saveSession"
     ]
   },
   "plugins": {

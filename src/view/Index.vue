@@ -2,9 +2,15 @@
   <div id="indexContainer">
 
     <el-row id="index-row">
-      <el-col :span="24">
+      <el-col :span="20">
         <h1 class="web-title">俱乐部管理平台</h1>
       </el-col>
+      <el-col :span="3">
+          {{username}}
+        <h6 @click.prevent="">登出</h6>
+      </el-col>
+    </el-row>
+    <el-row>
     <el-col :span="3" class="nav">
       <el-menu default-active="2" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose" theme="dark">
         <el-submenu index="1">
@@ -25,6 +31,7 @@
 </template>
 
 <script>
+import { mapState, mapActions } from 'vuex'
 export default {
   data() {
     return {
@@ -40,7 +47,15 @@ export default {
       }
     }
   },
+  computed:{
+    ...mapState({
+      username: ({login}) => login.username
+    })
+  },
   methods: {
+    ...mapActions([
+      'logOut'
+    ]),
       handleOpen(key, keyPath) {
         console.log(key, keyPath);
       },

@@ -46,7 +46,6 @@ module.exports = app => {
         success = true;
         let {uid} = res.result;
         ctx.session.uid = uid;//session默认是用cookie存储的需要改用redis存储
-        // console.log(ctx.session.uid)
       }
       ctx.body = {
         success,
