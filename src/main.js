@@ -13,6 +13,7 @@ Vue.use(ElementUI)
 
 router.beforeEach((to, from, next) => {
   if (to.matched.some(record => record.meta.requiresAuth)) {
+    console.log(store)
   if (!store.state.login.status) {
       next({
         path: '/login',

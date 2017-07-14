@@ -2209,3 +2209,258 @@
 2017-07-13 18:23:20,398 INFO 23552 [egg-security] compose 7 middlewares into one security middleware
 2017-07-13 18:23:20,496 INFO 23552 [egg-watcher:app] watcher start success
 2017-07-13 18:23:20,655 INFO 23552 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 13 2017 18:23:20 GMT+0800 (中国标准时间)
+2017-07-14 09:31:46,840 INFO 10352 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 09:31:47,920 INFO 10352 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 09:31:47,920 INFO 10352 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 09:31:48,039 INFO 10352 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 09:31:51,260 INFO 10352 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 09:31:51,325 INFO 10352 [egg-security] use csrf middleware
+2017-07-14 09:31:51,330 INFO 10352 [egg-security] use methodnoallow middleware
+2017-07-14 09:31:51,334 INFO 10352 [egg-security] use noopen middleware
+2017-07-14 09:31:51,335 INFO 10352 [egg-security] use nosniff middleware
+2017-07-14 09:31:51,360 INFO 10352 [egg-security] use xssProtection middleware
+2017-07-14 09:31:51,361 INFO 10352 [egg-security] use xframe middleware
+2017-07-14 09:31:51,374 INFO 10352 [egg-security] use dta middleware
+2017-07-14 09:31:51,374 INFO 10352 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 09:31:51,730 INFO 10352 [egg-watcher:app] watcher start success
+2017-07-14 09:31:52,045 INFO 10352 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 09:31:52 GMT+0800 (中国标准时间)
+2017-07-14 16:03:07,717 INFO 38384 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 16:03:07,986 INFO 38384 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 16:03:07,986 INFO 38384 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 16:03:08,119 INFO 38384 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 16:03:09,434 INFO 38384 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 16:03:09,458 INFO 38384 [egg-security] use csrf middleware
+2017-07-14 16:03:09,461 INFO 38384 [egg-security] use methodnoallow middleware
+2017-07-14 16:03:09,465 INFO 38384 [egg-security] use noopen middleware
+2017-07-14 16:03:09,466 INFO 38384 [egg-security] use nosniff middleware
+2017-07-14 16:03:09,468 INFO 38384 [egg-security] use xssProtection middleware
+2017-07-14 16:03:09,469 INFO 38384 [egg-security] use xframe middleware
+2017-07-14 16:03:09,471 INFO 38384 [egg-security] use dta middleware
+2017-07-14 16:03:09,471 INFO 38384 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 16:03:09,599 INFO 38384 [egg-watcher:app] watcher start success
+2017-07-14 16:03:09,654 INFO 38384 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 16:03:09 GMT+0800 (中国标准时间)
+2017-07-14 17:35:22,252 INFO 45040 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 17:35:22,447 INFO 45040 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 17:35:22,447 INFO 45040 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 17:35:22,621 INFO 45040 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 17:35:23,753 INFO 45040 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 17:35:23,786 INFO 45040 [egg-security] use csrf middleware
+2017-07-14 17:35:23,790 INFO 45040 [egg-security] use methodnoallow middleware
+2017-07-14 17:35:23,796 INFO 45040 [egg-security] use noopen middleware
+2017-07-14 17:35:23,797 INFO 45040 [egg-security] use nosniff middleware
+2017-07-14 17:35:23,800 INFO 45040 [egg-security] use xssProtection middleware
+2017-07-14 17:35:23,802 INFO 45040 [egg-security] use xframe middleware
+2017-07-14 17:35:23,816 INFO 45040 [egg-security] use dta middleware
+2017-07-14 17:35:23,816 INFO 45040 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 17:35:23,865 INFO 45040 [egg-watcher:app] watcher start success
+2017-07-14 17:35:23,987 INFO 45040 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 17:35:23 GMT+0800 (中国标准时间)
+2017-07-14 17:37:19,166 INFO 43316 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 17:37:19,218 INFO 43316 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 17:37:19,218 INFO 43316 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 17:37:19,249 INFO 43316 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 17:37:19,533 INFO 43316 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 17:37:19,537 INFO 43316 [egg-security] use csrf middleware
+2017-07-14 17:37:19,540 INFO 43316 [egg-security] use methodnoallow middleware
+2017-07-14 17:37:19,541 INFO 43316 [egg-security] use noopen middleware
+2017-07-14 17:37:19,542 INFO 43316 [egg-security] use nosniff middleware
+2017-07-14 17:37:19,543 INFO 43316 [egg-security] use xssProtection middleware
+2017-07-14 17:37:19,546 INFO 43316 [egg-security] use xframe middleware
+2017-07-14 17:37:19,547 INFO 43316 [egg-security] use dta middleware
+2017-07-14 17:37:19,547 INFO 43316 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 17:37:19,619 INFO 43316 [egg-watcher:app] watcher start success
+2017-07-14 17:37:19,643 INFO 43316 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 17:37:19 GMT+0800 (中国标准时间)
+2017-07-14 17:38:35,844 INFO 41980 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 17:38:35,912 INFO 41980 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 17:38:35,912 INFO 41980 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 17:38:35,956 INFO 41980 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 17:38:36,205 INFO 41980 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 17:38:36,212 INFO 41980 [egg-security] use csrf middleware
+2017-07-14 17:38:36,215 INFO 41980 [egg-security] use methodnoallow middleware
+2017-07-14 17:38:36,215 INFO 41980 [egg-security] use noopen middleware
+2017-07-14 17:38:36,216 INFO 41980 [egg-security] use nosniff middleware
+2017-07-14 17:38:36,223 INFO 41980 [egg-security] use xssProtection middleware
+2017-07-14 17:38:36,225 INFO 41980 [egg-security] use xframe middleware
+2017-07-14 17:38:36,226 INFO 41980 [egg-security] use dta middleware
+2017-07-14 17:38:36,226 INFO 41980 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 17:38:36,345 INFO 41980 [egg-watcher:app] watcher start success
+2017-07-14 17:38:36,358 INFO 41980 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 17:38:36 GMT+0800 (中国标准时间)
+2017-07-14 17:39:52,549 INFO 28024 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 17:39:52,604 INFO 28024 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 17:39:52,604 INFO 28024 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 17:39:52,644 INFO 28024 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 17:39:52,890 INFO 28024 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 17:39:52,896 INFO 28024 [egg-security] use csrf middleware
+2017-07-14 17:39:52,898 INFO 28024 [egg-security] use methodnoallow middleware
+2017-07-14 17:39:52,899 INFO 28024 [egg-security] use noopen middleware
+2017-07-14 17:39:52,900 INFO 28024 [egg-security] use nosniff middleware
+2017-07-14 17:39:52,901 INFO 28024 [egg-security] use xssProtection middleware
+2017-07-14 17:39:52,902 INFO 28024 [egg-security] use xframe middleware
+2017-07-14 17:39:52,902 INFO 28024 [egg-security] use dta middleware
+2017-07-14 17:39:52,902 INFO 28024 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 17:39:52,946 INFO 28024 [egg-watcher:app] watcher start success
+2017-07-14 17:39:52,957 INFO 28024 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 17:39:52 GMT+0800 (中国标准时间)
+2017-07-14 19:09:46,286 INFO 38828 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 19:09:46,457 INFO 38828 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 19:09:46,457 INFO 38828 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 19:09:46,996 INFO 38828 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 19:09:54,980 INFO 38828 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 19:09:55,030 INFO 38828 [egg-security] use csrf middleware
+2017-07-14 19:09:55,053 INFO 38828 [egg-security] use methodnoallow middleware
+2017-07-14 19:09:55,068 INFO 38828 [egg-security] use noopen middleware
+2017-07-14 19:09:55,095 INFO 38828 [egg-security] use nosniff middleware
+2017-07-14 19:09:55,120 INFO 38828 [egg-security] use xssProtection middleware
+2017-07-14 19:09:55,121 INFO 38828 [egg-security] use xframe middleware
+2017-07-14 19:09:55,142 INFO 38828 [egg-security] use dta middleware
+2017-07-14 19:09:55,142 INFO 38828 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 19:09:55,208 INFO 38828 [egg-watcher:app] watcher start success
+2017-07-14 19:09:55,293 INFO 38828 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 19:09:55 GMT+0800 (中国标准时间)
+2017-07-14 19:09:56,745 INFO 41528 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 19:09:56,845 INFO 41528 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 19:09:56,845 INFO 41528 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 19:09:56,893 INFO 41528 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 19:09:57,191 INFO 41528 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 19:09:57,194 INFO 41528 [egg-security] use csrf middleware
+2017-07-14 19:09:57,196 INFO 41528 [egg-security] use methodnoallow middleware
+2017-07-14 19:09:57,203 INFO 41528 [egg-security] use noopen middleware
+2017-07-14 19:09:57,203 INFO 41528 [egg-security] use nosniff middleware
+2017-07-14 19:09:57,204 INFO 41528 [egg-security] use xssProtection middleware
+2017-07-14 19:09:57,205 INFO 41528 [egg-security] use xframe middleware
+2017-07-14 19:09:57,205 INFO 41528 [egg-security] use dta middleware
+2017-07-14 19:09:57,206 INFO 41528 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 19:09:57,286 INFO 41528 [egg-watcher:app] watcher start success
+2017-07-14 19:09:57,355 INFO 41528 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 19:09:57 GMT+0800 (中国标准时间)
+2017-07-14 19:10:50,580 INFO 40264 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 19:10:50,642 INFO 40264 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 19:10:50,642 INFO 40264 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 19:10:50,676 INFO 40264 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 19:10:50,926 INFO 40264 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 19:10:50,930 INFO 40264 [egg-security] use csrf middleware
+2017-07-14 19:10:50,933 INFO 40264 [egg-security] use methodnoallow middleware
+2017-07-14 19:10:50,938 INFO 40264 [egg-security] use noopen middleware
+2017-07-14 19:10:50,939 INFO 40264 [egg-security] use nosniff middleware
+2017-07-14 19:10:50,940 INFO 40264 [egg-security] use xssProtection middleware
+2017-07-14 19:10:50,941 INFO 40264 [egg-security] use xframe middleware
+2017-07-14 19:10:50,942 INFO 40264 [egg-security] use dta middleware
+2017-07-14 19:10:50,942 INFO 40264 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 19:10:51,009 INFO 40264 [egg-watcher:app] watcher start success
+2017-07-14 19:10:51,015 INFO 40264 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 19:10:51 GMT+0800 (中国标准时间)
+2017-07-14 19:11:23,628 INFO 39980 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 19:11:23,677 INFO 39980 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 19:11:23,677 INFO 39980 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 19:11:23,729 INFO 39980 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 19:11:23,998 INFO 39980 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 19:11:24,002 INFO 39980 [egg-security] use csrf middleware
+2017-07-14 19:11:24,005 INFO 39980 [egg-security] use methodnoallow middleware
+2017-07-14 19:11:24,007 INFO 39980 [egg-security] use noopen middleware
+2017-07-14 19:11:24,008 INFO 39980 [egg-security] use nosniff middleware
+2017-07-14 19:11:24,009 INFO 39980 [egg-security] use xssProtection middleware
+2017-07-14 19:11:24,011 INFO 39980 [egg-security] use xframe middleware
+2017-07-14 19:11:24,012 INFO 39980 [egg-security] use dta middleware
+2017-07-14 19:11:24,012 INFO 39980 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 19:11:24,054 INFO 39980 [egg-watcher:app] watcher start success
+2017-07-14 19:11:24,058 INFO 39980 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 19:11:24 GMT+0800 (中国标准时间)
+2017-07-14 19:11:36,353 INFO 43900 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 19:11:36,405 INFO 43900 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 19:11:36,405 INFO 43900 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 19:11:36,445 INFO 43900 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 19:11:36,691 INFO 43900 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 19:11:36,698 INFO 43900 [egg-security] use csrf middleware
+2017-07-14 19:11:36,701 INFO 43900 [egg-security] use methodnoallow middleware
+2017-07-14 19:11:36,701 INFO 43900 [egg-security] use noopen middleware
+2017-07-14 19:11:36,702 INFO 43900 [egg-security] use nosniff middleware
+2017-07-14 19:11:36,703 INFO 43900 [egg-security] use xssProtection middleware
+2017-07-14 19:11:36,703 INFO 43900 [egg-security] use xframe middleware
+2017-07-14 19:11:36,704 INFO 43900 [egg-security] use dta middleware
+2017-07-14 19:11:36,704 INFO 43900 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 19:11:36,748 INFO 43900 [egg-watcher:app] watcher start success
+2017-07-14 19:11:36,769 INFO 43900 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 19:11:36 GMT+0800 (中国标准时间)
+2017-07-14 19:12:25,528 INFO 43636 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 19:12:25,634 INFO 43636 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 19:12:25,634 INFO 43636 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 19:12:25,699 INFO 43636 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 19:12:26,003 INFO 43636 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 19:12:26,011 INFO 43636 [egg-security] use csrf middleware
+2017-07-14 19:12:26,014 INFO 43636 [egg-security] use methodnoallow middleware
+2017-07-14 19:12:26,015 INFO 43636 [egg-security] use noopen middleware
+2017-07-14 19:12:26,016 INFO 43636 [egg-security] use nosniff middleware
+2017-07-14 19:12:26,016 INFO 43636 [egg-security] use xssProtection middleware
+2017-07-14 19:12:26,017 INFO 43636 [egg-security] use xframe middleware
+2017-07-14 19:12:26,018 INFO 43636 [egg-security] use dta middleware
+2017-07-14 19:12:26,018 INFO 43636 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 19:12:26,093 INFO 43636 [egg-watcher:app] watcher start success
+2017-07-14 19:12:26,096 INFO 43636 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 19:12:26 GMT+0800 (中国标准时间)
+2017-07-14 19:12:27,584 INFO 41840 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 19:12:27,641 INFO 41840 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 19:12:27,641 INFO 41840 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 19:12:27,677 INFO 41840 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 19:12:27,973 INFO 41840 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 19:12:27,981 INFO 41840 [egg-security] use csrf middleware
+2017-07-14 19:12:27,986 INFO 41840 [egg-security] use methodnoallow middleware
+2017-07-14 19:12:27,987 INFO 41840 [egg-security] use noopen middleware
+2017-07-14 19:12:27,988 INFO 41840 [egg-security] use nosniff middleware
+2017-07-14 19:12:27,989 INFO 41840 [egg-security] use xssProtection middleware
+2017-07-14 19:12:27,990 INFO 41840 [egg-security] use xframe middleware
+2017-07-14 19:12:27,991 INFO 41840 [egg-security] use dta middleware
+2017-07-14 19:12:27,991 INFO 41840 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 19:12:28,071 INFO 41840 [egg-watcher:app] watcher start success
+2017-07-14 19:12:28,074 INFO 41840 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 19:12:28 GMT+0800 (中国标准时间)
+2017-07-14 19:12:56,358 INFO 41564 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 19:12:56,411 INFO 41564 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 19:12:56,411 INFO 41564 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 19:12:56,461 INFO 41564 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 19:12:56,799 INFO 41564 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 19:12:56,817 INFO 41564 [egg-security] use csrf middleware
+2017-07-14 19:12:56,820 INFO 41564 [egg-security] use methodnoallow middleware
+2017-07-14 19:12:56,820 INFO 41564 [egg-security] use noopen middleware
+2017-07-14 19:12:56,827 INFO 41564 [egg-security] use nosniff middleware
+2017-07-14 19:12:56,828 INFO 41564 [egg-security] use xssProtection middleware
+2017-07-14 19:12:56,829 INFO 41564 [egg-security] use xframe middleware
+2017-07-14 19:12:56,830 INFO 41564 [egg-security] use dta middleware
+2017-07-14 19:12:56,830 INFO 41564 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 19:12:56,954 INFO 41564 [egg-watcher:app] watcher start success
+2017-07-14 19:12:56,977 INFO 41564 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 19:12:56 GMT+0800 (中国标准时间)
+2017-07-14 19:14:25,261 INFO 43404 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 19:14:25,307 INFO 43404 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 19:14:25,307 INFO 43404 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 19:14:25,339 INFO 43404 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 19:14:25,582 INFO 43404 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 19:14:25,585 INFO 43404 [egg-security] use csrf middleware
+2017-07-14 19:14:25,590 INFO 43404 [egg-security] use methodnoallow middleware
+2017-07-14 19:14:25,591 INFO 43404 [egg-security] use noopen middleware
+2017-07-14 19:14:25,592 INFO 43404 [egg-security] use nosniff middleware
+2017-07-14 19:14:25,592 INFO 43404 [egg-security] use xssProtection middleware
+2017-07-14 19:14:25,593 INFO 43404 [egg-security] use xframe middleware
+2017-07-14 19:14:25,594 INFO 43404 [egg-security] use dta middleware
+2017-07-14 19:14:25,594 INFO 43404 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 19:14:25,646 INFO 43404 [egg-watcher:app] watcher start success
+2017-07-14 19:14:25,670 INFO 43404 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 19:14:25 GMT+0800 (中国标准时间)
+2017-07-14 19:14:26,899 INFO 28096 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 19:14:27,076 INFO 28096 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 19:14:27,077 INFO 28096 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 19:14:27,118 INFO 28096 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 19:14:27,370 INFO 28096 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 19:14:27,382 INFO 28096 [egg-security] use csrf middleware
+2017-07-14 19:14:27,386 INFO 28096 [egg-security] use methodnoallow middleware
+2017-07-14 19:14:27,387 INFO 28096 [egg-security] use noopen middleware
+2017-07-14 19:14:27,389 INFO 28096 [egg-security] use nosniff middleware
+2017-07-14 19:14:27,390 INFO 28096 [egg-security] use xssProtection middleware
+2017-07-14 19:14:27,391 INFO 28096 [egg-security] use xframe middleware
+2017-07-14 19:14:27,392 INFO 28096 [egg-security] use dta middleware
+2017-07-14 19:14:27,392 INFO 28096 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 19:14:27,464 INFO 28096 [egg-watcher:app] watcher start success
+2017-07-14 19:14:27,488 INFO 28096 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 19:14:27 GMT+0800 (中国标准时间)
+2017-07-14 19:28:23,274 INFO 43140 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-14 19:28:23,444 INFO 43140 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-14 19:28:23,444 INFO 43140 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-14 19:28:23,491 INFO 43140 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-14 19:28:24,800 INFO 43140 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\public
+2017-07-14 19:28:24,827 INFO 43140 [egg-security] use csrf middleware
+2017-07-14 19:28:24,830 INFO 43140 [egg-security] use methodnoallow middleware
+2017-07-14 19:28:24,832 INFO 43140 [egg-security] use noopen middleware
+2017-07-14 19:28:24,833 INFO 43140 [egg-security] use nosniff middleware
+2017-07-14 19:28:24,834 INFO 43140 [egg-security] use xssProtection middleware
+2017-07-14 19:28:24,835 INFO 43140 [egg-security] use xframe middleware
+2017-07-14 19:28:24,836 INFO 43140 [egg-security] use dta middleware
+2017-07-14 19:28:24,836 INFO 43140 [egg-security] compose 7 middlewares into one security middleware
+2017-07-14 19:28:24,945 INFO 43140 [egg-watcher:app] watcher start success
+2017-07-14 19:28:25,026 INFO 43140 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 14 2017 19:28:24 GMT+0800 (中国标准时间)

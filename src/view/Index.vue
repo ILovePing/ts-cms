@@ -1,16 +1,16 @@
 <template>
   <div id="indexContainer">
-
-    <el-row id="index-row">
-      <el-col :span="20">
+    <el-row>
+      <el-col :span="18">
         <h1 class="web-title">俱乐部管理平台</h1>
       </el-col>
-      <el-col :span="3">
-          {{username}}
-        <h6 @click.prevent="">登出</h6>
+      <el-col :span="6">
+      <h1 class="web-title" v-if="status"><el-tag>{{username}}</el-tag>，欢迎你 <span @click.prevent="logOut">登出</span></h1>
+      <h1 class="web-title" v-else><router-link tag="span" to="/login">登录</router-link></h1>
       </el-col>
     </el-row>
-    <el-row>
+
+    <el-row id="index-row">
     <el-col :span="3" class="nav">
       <el-menu default-active="2" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose" theme="dark">
         <el-submenu index="1">
@@ -49,7 +49,8 @@ export default {
   },
   computed:{
     ...mapState({
-      username: ({login}) => login.username
+      username: ({login}) => login.username,
+      status: ({login}) => login.status
     })
   },
   methods: {
@@ -68,7 +69,7 @@ export default {
 
 
 <style lang="scss">
-html,body,#indexContainer,#index-row{
+html,body,#index-row{
   height: 100%;
 }
 #indexContainer {
@@ -76,6 +77,7 @@ html,body,#indexContainer,#index-row{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  height:calc(100% - 60px);
   .web-title{
     margin:0;
     height: 60px;
@@ -88,7 +90,7 @@ html,body,#indexContainer,#index-row{
     font-family: cursive;
   }
   .nav{
-    height:calc(100% - 60px);
+    height: 100%;
   }
   .el-menu{
     height: 100%;

@@ -10,7 +10,7 @@
     <el-input v-model="ruleForm.username"></el-input>
   </el-form-item>
   <el-form-item label="密码" prop="password">
-    <el-input v-model="ruleForm.password"></el-input>
+    <el-input v-model="ruleForm.password" type="password"></el-input>
   </el-form-item>
   <el-form-item>
     <el-button type="primary" @click="submitForm('ruleForm')">登陆</el-button>
@@ -56,8 +56,11 @@ import { mapState, mapActions } from 'vuex'
         'logIn'
       ]),
       alterMsg(){
-        console.log(123)
-	       this.$message(this.message);
+        let {type,message} = this.message
+	       this.$message({
+           type,
+           message
+         });
       },
       submitForm(formName) {
         this.$refs[formName].validate((valid) => {

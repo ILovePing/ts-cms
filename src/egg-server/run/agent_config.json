@@ -240,8 +240,8 @@
     "workerStartTimeout": 600000,
     "middleware": [
       "robot",
-      "errorHandler",
-      "saveSession"
+      "saveSession",
+      "errorHandler"
     ],
     "errorHandler": {
       "match": "/"
@@ -260,13 +260,13 @@
     ],
     "appMiddlewares": [
       "robot",
-      "errorHandler",
-      "saveSession"
+      "saveSession",
+      "errorHandler"
     ],
     "appMiddleware": [
       "robot",
-      "errorHandler",
-      "saveSession"
+      "saveSession",
+      "errorHandler"
     ]
   },
   "plugins": {

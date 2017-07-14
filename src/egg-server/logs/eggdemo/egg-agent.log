@@ -340,3 +340,41 @@
 2017-07-13 18:21:44,622 INFO 23820 [egg-watcher:agent] watcher start success
 2017-07-13 18:23:18,766 INFO 22444 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
 2017-07-13 18:23:18,925 INFO 22444 [egg-watcher:agent] watcher start success
+2017-07-14 09:31:38,032 INFO 9524 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-14 09:31:40,972 INFO 9524 [egg-watcher:agent] watcher start success
+2017-07-14 16:02:58,230 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-14 16:03:09,666 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 17:35:13,622 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-14 17:35:23,998 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 17:37:17,806 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-14 17:37:19,622 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 17:38:34,246 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\middleware\save_session.js change
+2017-07-14 17:38:36,333 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 17:39:51,216 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\middleware\save_session.js change
+2017-07-14 17:39:52,946 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 19:09:42,158 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\config\config.default.js change
+2017-07-14 19:09:45,773 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\config\config.default.js change
+2017-07-14 19:09:55,266 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 19:09:57,862 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 19:10:49,224 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-14 19:10:51,006 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 19:11:22,230 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-14 19:11:24,049 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 19:11:35,078 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-14 19:11:36,751 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 19:12:24,059 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-14 19:12:24,710 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-14 19:12:26,097 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 19:12:28,055 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 19:12:54,807 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\middleware\save_session.js change
+2017-07-14 19:12:56,936 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 19:14:24,073 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-14 19:14:24,377 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-14 19:14:24,655 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-14 19:14:25,070 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\app\controller\user.js change
+2017-07-14 19:14:25,657 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 19:14:27,475 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 19:22:46,068 WARN 9524 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\config\plugin.js change
+2017-07-14 19:22:47,072 WARN 9524 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-14 19:28:18,095 INFO 38720 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-14 19:28:18,949 INFO 38720 [egg-watcher:agent] watcher start success

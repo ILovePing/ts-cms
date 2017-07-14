@@ -15,7 +15,7 @@ const routes = [{
   children: [{
     path: '/userConf',
     name:'userConf',
-    component: resolve => require(['@/components/userConf'],resolve)
+    component: resolve => require(['@/components/UserConf'],resolve)
   }]
 },];
 export default new Router({

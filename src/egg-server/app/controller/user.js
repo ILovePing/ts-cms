@@ -51,10 +51,10 @@ module.exports = app => {
         success,
       };
       ctx.status = 200;
-
     }
-    * logout(){
-      const ctx = this.ctx
+    * logout(ctx){
+      // const ctx = this.ctx
+      console.log(ctx.session)
       ctx.session = null;
       ctx.body = {
         success: true,
