@@ -1,17 +1,28 @@
 module.exports = appInfo => {
   const config = {};
-  config.keys = '123123123';
+  config.keys = 'rick_handsome';
   // config.view = {
   //   defaultViewEngine: 'nunjucks',
   //   mapping: {
   //     '.tpl': 'nunjucks',
   //   },
   // };
-  config.middleware = [
-  'robot',
-  'saveSession',
-  'errorHandler',
+  config.redis = {
+    client: {
+      host: '127.0.0.1',
+      port: '6379',
+      password: '',
+      db: '0',
+    },
+  };
 
+  config.sessionRedis = {
+    name: '', // single redis does not need to config name
+  };
+  config.middleware = [
+    'saveSession',
+    'robot',
+    'errorHandler',
   ];
   config.errorHandler = {
     // 非 `/api/` 路径不在这里做错误处理，留给默认的 onerror 插件统一处理

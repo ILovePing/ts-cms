@@ -13,6 +13,8 @@
     "egg": "^1.5.0",
     "egg-bin": "^4.0.4",
     "egg-mysql": "^3.0.0",
+    "egg-redis": "^1.0.2",
+    "egg-session-redis": "^1.0.0",
     "egg-view-nunjucks": "^2.1.2",
     "test-exclude": "^4.1.1"
   },

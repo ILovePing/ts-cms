@@ -53,14 +53,18 @@ module.exports = app => {
       ctx.status = 200;
     }
     * logout(ctx){
-      // const ctx = this.ctx
-      console.log(ctx.session)
-      ctx.session = null;
+      ctx.session.uid = null;
       ctx.body = {
         success: true,
       };
       ctx.status = 200;
     }
+    // * logstatus(ctx){
+    //   ctx.body = {
+    //     status: !!ctx.session.uid
+    //   }
+    //   ctx.status  = 200;
+    // }
   }
   return UserController;
 };

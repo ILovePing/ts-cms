@@ -5,13 +5,21 @@ import {
 import { showMsg } from '../actions'
 import api from '../../api/api'
 import router from '../../router/index'
-// console.log()
 const state = {
   status:false,
   username:'',
 }
 
 const actions = {
+  // getLoginStatus(store){
+  //   api.userLogStatus().then((res)=>{
+  //     if(res.data.status){//
+  //       store.commit(LOG_IN,loginData.username)
+  //     }else{
+  //
+  //     }
+  //   })
+  // },
   logIn(store,loginData){
     api.userLogin(loginData).then(res => {
         if(res.data.success){
@@ -32,9 +40,6 @@ const actions = {
         if(res.data.success){
           store.commit(LOG_OUT)
           showMsg(store,'注销成功','success')
-          setTimeout(function(){
-            router.replace('/')
-          },2000)
         }else{
           showMsg(store,'注销失败')
         }

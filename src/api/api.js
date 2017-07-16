@@ -52,6 +52,9 @@ export  default {
   userLogOut(){
     return axios.post('/api/logout')
   },
+  // userLogStatus(){
+  //   return axios.get('/api/logstatus')
+  // },
   userInsert:function(user,cb){
     axios.post('/api/user',user).then(function (res) {
         setTimeout(()=>{

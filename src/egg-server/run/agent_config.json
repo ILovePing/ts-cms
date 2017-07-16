@@ -20,8 +20,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.2.1.3@egg-watcher\\lib\\event-sources\\default",
-        "development": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.2.1.3@egg-watcher\\lib\\event-sources\\development"
+        "default": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.2.1.3@egg-watcher/lib/event-sources/default",
+        "development": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.2.1.3@egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -98,7 +98,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\app\\public",
+      "dir": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -113,7 +113,7 @@
       "csrf": false
     },
     "view": {
-      "root": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\app\\view",
+      "root": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -141,9 +141,23 @@
         "database": "ts-cms"
       }
     },
+    "redis": {
+      "default": {},
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "127.0.0.1",
+        "port": "6379",
+        "password": "<String len: 0>",
+        "db": "0"
+      }
+    },
+    "sessionRedis": {
+      "name": ""
+    },
     "env": "local",
     "name": "eggdemo",
-    "keys": "<String len: 9>",
+    "keys": "<String len: 13>",
     "proxy": false,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
@@ -163,6 +177,8 @@
         "egg": "^1.5.0",
         "egg-bin": "^4.0.4",
         "egg-mysql": "^3.0.0",
+        "egg-redis": "^1.0.2",
+        "egg-session-redis": "^1.0.0",
         "egg-view-nunjucks": "^2.1.2",
         "test-exclude": "^4.1.1"
       },
@@ -171,9 +187,9 @@
         "egg-mock": "^3.8.0"
       }
     },
-    "baseDir": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server",
-    "HOME": "C:\\Users\\Administrator",
-    "rundir": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\run",
+    "baseDir": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server",
+    "HOME": "/Users/rick",
+    "rundir": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -203,7 +219,7 @@
       }
     },
     "logger": {
-      "dir": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\logs\\eggdemo",
+      "dir": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/logs/eggdemo",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -277,8 +293,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.5.0@egg\\config\\plugin.js",
-      "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.4.6@egg-onerror",
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.6.0@egg/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.4.6@egg-onerror",
       "version": "1.4.6"
     },
     "session": {
@@ -288,8 +304,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.5.0@egg\\config\\plugin.js",
-      "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.2.1.1@egg-session",
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.6.0@egg/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.2.1.1@egg-session",
       "version": "2.1.1"
     },
     "i18n": {
@@ -299,8 +315,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.5.0@egg\\config\\plugin.js",
-      "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.1.1@egg-i18n",
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.6.0@egg/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.1.1@egg-i18n",
       "version": "1.1.1"
     },
     "watcher": {
@@ -310,8 +326,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.5.0@egg\\config\\plugin.js",
-      "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.2.1.3@egg-watcher",
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.6.0@egg/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.2.1.3@egg-watcher",
       "version": "2.1.3"
     },
     "multipart": {
@@ -321,8 +337,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.5.0@egg\\config\\plugin.js",
-      "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.5.0@egg-multipart",
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.6.0@egg/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.5.0@egg-multipart",
       "version": "1.5.0"
     },
     "security": {
@@ -334,8 +350,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.5.0@egg\\config\\plugin.js",
-      "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.11.0@egg-security",
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.6.0@egg/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.11.0@egg-security",
       "version": "1.11.0"
     },
     "development": {
@@ -349,8 +365,8 @@
       "env": [
         "local"
       ],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.5.0@egg\\config\\plugin.js",
-      "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.3.1@egg-development",
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.6.0@egg/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.3.1@egg-development",
       "version": "1.3.1"
     },
     "schedule": {
@@ -360,8 +376,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.5.0@egg\\config\\plugin.js",
-      "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.2.4.1@egg-schedule",
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.6.0@egg/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.2.4.1@egg-schedule",
       "version": "2.4.1"
     },
     "logrotator": {
@@ -373,8 +389,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.5.0@egg\\config\\plugin.js",
-      "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.2.2.3@egg-logrotator",
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.6.0@egg/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.2.2.3@egg-logrotator",
       "version": "2.2.3"
     },
     "static": {
@@ -384,8 +400,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.5.0@egg\\config\\plugin.js",
-      "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.4.1@egg-static",
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.6.0@egg/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.4.1@egg-static",
       "version": "1.4.1"
     },
     "jsonp": {
@@ -397,8 +413,8 @@
         "security"
       ],
       "env": [],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.5.0@egg\\config\\plugin.js",
-      "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.1.1@egg-jsonp",
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.6.0@egg/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.1.1@egg-jsonp",
       "version": "1.1.1"
     },
     "view": {
@@ -408,8 +424,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.5.0@egg\\config\\plugin.js",
-      "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.1.1.1@egg-view",
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.6.0@egg/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.1.1.1@egg-view",
       "version": "1.1.1"
     },
     "nunjucks": {
@@ -422,8 +438,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\config\\plugin.js",
-      "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.2.1.3@egg-view-nunjucks",
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.2.1.3@egg-view-nunjucks",
       "version": "2.1.3"
     },
     "mysql": {
@@ -433,9 +449,33 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\config\\plugin.js",
-      "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\src\\egg-server\\node_modules\\.3.0.0@egg-mysql",
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/.3.0.0@egg-mysql",
       "version": "3.0.0"
+    },
+    "redis": {
+      "enable": true,
+      "package": "egg-redis",
+      "name": "redis",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/egg-redis",
+      "version": "1.0.2"
+    },
+    "sessionRedis": {
+      "enable": true,
+      "package": "egg-session-redis",
+      "name": "sessionRedis",
+      "dependencies": [
+        "redis"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/config/plugin.js",
+      "path": "/Users/rick/Desktop/2017.8/ts-cms/src/egg-server/node_modules/egg-session-redis",
+      "version": "1.0.0"
     }
   }
 }

@@ -5,7 +5,7 @@
         <h1 class="web-title">俱乐部管理平台</h1>
       </el-col>
       <el-col :span="6">
-      <h1 class="web-title" v-if="status"><el-tag>{{username}}</el-tag>，欢迎你 <span @click.prevent="logOut">登出</span></h1>
+      <h1 class="web-title" v-if="status"><el-tag>{{username}}</el-tag>，欢迎你 <span @click.prevent="logOutConfirm">登出</span></h1>
       <h1 class="web-title" v-else><router-link tag="span" to="/login">登录</router-link></h1>
       </el-col>
     </el-row>
@@ -50,13 +50,33 @@ export default {
   computed:{
     ...mapState({
       username: ({login}) => login.username,
-      status: ({login}) => login.status
+      status: ({login}) => login.status,
+      message: ({showmsg}) => showmsg.message
     })
+  },
+  watch: {
+    'message': 'alterMsg'
   },
   methods: {
     ...mapActions([
       'logOut'
     ]),
+    alterMsg(){
+      let {type,message} = this.message
+       this.$message({
+         type,
+         message
+       });
+    },
+    logOutConfirm(){
+      this.$confirm('确认注销?', '提示', {
+         confirmButtonText: '确定',
+         cancelButtonText: '取消',
+         type: 'info'
+       }).then(() => {
+         this.logOut();
+       })
+    },
       handleOpen(key, keyPath) {
         console.log(key, keyPath);
       },
