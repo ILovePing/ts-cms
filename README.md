@@ -1,8 +1,13 @@
 # egg + vue
 
 ![](http://og40gjbnu.bkt.clouddn.com/%E9%A1%B9%E7%9B%AE%E6%A1%86%E6%9E%B6%E5%9B%BE1.png)
-# log
-20170717 00:28am
+# changelog
+2017-07-18 00:22am
+
+[mac为docker搭建一个registry](http://www.dailibu.com/gis/2016056987/WoMenZaiGuoNeiXiaZaidockerDeJing)
+
+2017-07-17 00:28am
+
 [参考文章花大源码](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/store/modules/user.js)
 [参考花大文章vue撸后台平台](https://segmentfault.com/a/1190000009506097#articleHeader8)
 关于登录状态持久化解决，登录之后存一个token在本地cookie，
