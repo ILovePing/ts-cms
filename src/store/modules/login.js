@@ -1,29 +1,28 @@
 import {
   LOG_IN,
-  LOG_OUT
+  LOG_OUT,
+  SET_TOKEN,
+  SET_NAME
 } from '../mutation-types'
 import { showMsg } from '../actions'
 import api from '../../api/api'
 import router from '../../router/index'
+import cookieUtil from 'js-cookie'
 const state = {
   status:false,
-  username:'',
+  username:cookieUtil.get('username'),
+  token: cookieUtil.get('token'),
 }
 
 const actions = {
-  // getLoginStatus(store){
-  //   api.userLogStatus().then((res)=>{
-  //     if(res.data.status){//
-  //       store.commit(LOG_IN,loginData.username)
-  //     }else{
-  //
-  //     }
-  //   })
-  // },
   logIn(store,loginData){
     api.userLogin(loginData).then(res => {
         if(res.data.success){
-          store.commit(LOG_IN,loginData.username)
+          store.commit(LOG_IN)
+          store.commit(SET_NAME,loginData.username)
+          store.commit(SET_TOKEN,res.data.token)
+          cookieUtil.set('token',res.data.token)
+          cookieUtil.set('username',loginData.username)
           showMsg(store,'登陆成功','success')
           setTimeout(()=>{
             router.replace('/')
@@ -39,6 +38,10 @@ const actions = {
     api.userLogOut().then(res => {
         if(res.data.success){
           store.commit(LOG_OUT)
+          store.commit(SET_TOKEN,'')
+          store.commit(SET_NAME,'')
+          cookieUtil.remove('token')
+          cookieUtil.remove('username')
           showMsg(store,'注销成功','success')
         }else{
           showMsg(store,'注销失败')
@@ -49,13 +52,16 @@ const actions = {
   }
 }
 const mutations = {
-  [LOG_IN](state, username){
-    state.username = username
+  [SET_NAME](state, username){
+      state.username = username
+  },
+  [SET_TOKEN](state, token){
+      state.token = token
+  },
+  [LOG_IN](state){
     state.status = true
-    console.log(state.status)
   },
   [LOG_OUT](state, action){
-    state.username = ''
     state.status = false
   }
 }

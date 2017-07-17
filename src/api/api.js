@@ -1,6 +1,6 @@
 import axios from 'axios';
 import qs from 'qs';
-import {getCsrfToken} from '../util/cookie'
+import cookieUtil from 'js-cookie'
 axios.defaults.timeout = 5000;                        //响应时间
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8';           //配置
 //POST传参序列化
@@ -9,8 +9,8 @@ axios.interceptors.request.use(
       if(config.method  === 'post'){
           config.data = qs.stringify(config.data);
       }
-      if (getCsrfToken() && !(/^(GET|HEAD|OPTIONS|TRACE)$/.test(config.method)) ) {  // 判断是否存在token，如果存在的话，则每个http header都加上token
-             config.headers['x-csrf-token'] = getCsrfToken();
+      if (cookieUtil.get('csrfToken') && !(/^(GET|HEAD|OPTIONS|TRACE)$/.test(config.method)) ) {  // 判断是否存在token，如果存在的话，则每个http header都加上token
+             config.headers['x-csrf-token'] = cookieUtil.get('csrfToken')
          }
       return config;
     },
@@ -52,9 +52,6 @@ export  default {
   userLogOut(){
     return axios.post('/api/logout')
   },
-  // userLogStatus(){
-  //   return axios.get('/api/logstatus')
-  // },
   userInsert:function(user,cb){
     axios.post('/api/user',user).then(function (res) {
         setTimeout(()=>{

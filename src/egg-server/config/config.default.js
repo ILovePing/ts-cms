@@ -15,7 +15,6 @@ module.exports = appInfo => {
       db: '0',
     },
   };
-
   config.sessionRedis = {
     name: '', // single redis does not need to config name
   };

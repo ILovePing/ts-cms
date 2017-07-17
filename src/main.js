@@ -8,14 +8,14 @@ import 'normalize.css'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 
-//auth.login
-// import api from './api/api'
 Vue.config.productionTip = false
+
 Vue.use(ElementUI)
 
 router.beforeEach((to, from, next) => {
   if (to.matched.some(record => record.meta.requiresAuth)) {
-  if (!store.state.login.status) {
+    console.log(store.state)
+  if (!store.state.login.token) {
       next({
         path: '/login',
         query: { redirect: to.fullPath }//登陆之后重新跳转到之前的页面

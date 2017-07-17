@@ -5,12 +5,12 @@
         <h1 class="web-title">俱乐部管理平台</h1>
       </el-col>
       <el-col :span="6">
-      <h1 class="web-title" v-if="status"><el-tag>{{username}}</el-tag>，欢迎你 <span @click.prevent="logOutConfirm">登出</span></h1>
+      <h1 class="web-title" v-if="token"><el-tag>{{username}}</el-tag>，欢迎你 <span @click.prevent="logOutConfirm">登出</span></h1>
       <h1 class="web-title" v-else><router-link tag="span" to="/login">登录</router-link></h1>
       </el-col>
     </el-row>
 
-    <el-row id="index-row">
+  <el-row id="index-row">
     <el-col :span="3" class="nav">
       <el-menu default-active="2" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose" theme="dark">
         <el-submenu index="1">
@@ -20,14 +20,14 @@
             <el-menu-item index="chopper">chopper</el-menu-item>
           </el-menu-item-group>
         </el-submenu>
-        <el-menu-item index="2"><router-link to="/userConf" tag="span">人员管理</router-link></el-menu-item>
+        <el-menu-item index="2"><router-link to="/userConf" tag="div">人员管理</router-link></el-menu-item>
       </el-menu>
-  </el-col>
-  <el-col :span="21">
-    <router-view></router-view>
-  </el-col>
-</el-row>
-  </div>
+    </el-col>
+    <el-col :span="21">
+      <router-view></router-view>
+    </el-col>
+  </el-row>
+</div>
 </template>
 
 <script>
@@ -50,24 +50,24 @@ export default {
   computed:{
     ...mapState({
       username: ({login}) => login.username,
-      status: ({login}) => login.status,
-      message: ({showmsg}) => showmsg.message
+      token: ({login}) => login.token,
+      // message: ({showmsg}) => showmsg.message
     })
   },
   watch: {
-    'message': 'alterMsg'
+    // 'message': 'alterMsg'
   },
   methods: {
     ...mapActions([
       'logOut'
     ]),
-    alterMsg(){
-      let {type,message} = this.message
-       this.$message({
-         type,
-         message
-       });
-    },
+    // alterMsg(){
+    //   let {type,message} = this.message
+    //    this.$message({
+    //      type,
+    //      message
+    //    });
+    // },
     logOutConfirm(){
       this.$confirm('确认注销?', '提示', {
          confirmButtonText: '确定',

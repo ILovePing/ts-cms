@@ -45,26 +45,21 @@ module.exports = app => {
       if(res.result){
         success = true;
         let {uid} = res.result;
-        ctx.session.uid = uid;//session默认是用cookie存储的需要改用redis存储
+        ctx.session.uid = uid;//session默认是用cookie存储的.改用redis存储
       }
       ctx.body = {
         success,
+        token:'admin'
       };
       ctx.status = 200;
     }
     * logout(ctx){
-      ctx.session.uid = null;
+      ctx.session = null;
       ctx.body = {
         success: true,
       };
       ctx.status = 200;
     }
-    // * logstatus(ctx){
-    //   ctx.body = {
-    //     status: !!ctx.session.uid
-    //   }
-    //   ctx.status  = 200;
-    // }
   }
   return UserController;
 };

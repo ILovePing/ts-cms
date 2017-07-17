@@ -8,7 +8,6 @@
 <script>
 import Slider from '../components/Slider';
 export default {
-  name: 'hello',
   components:{
     Slider
   },
