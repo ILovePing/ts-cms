@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50624
 File Encoding         : 65001
 
-Date: 2017-07-05 10:24:11
+Date: 2017-07-18 17:16:57
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -27,10 +27,12 @@ CREATE TABLE `user` (
   `mb` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `apartment` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `score` smallint(6) DEFAULT '20',
-  `createtime` datetime NOT NULL,
+  `createtime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`uid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- ----------------------------
 -- Records of user
 -- ----------------------------
+INSERT INTO `user` VALUES ('1', 'polo', '123456', '1', '12322222', 'SNS', '20', '2017-07-18 17:14:23');
+INSERT INTO `user` VALUES ('22', '2222', '123456', '1', '2222', 'b2b', '20', '2017-07-18 17:15:23');

@@ -52,31 +52,14 @@ export  default {
   userLogOut(){
     return axios.post('/api/logout')
   },
-  userInsert:function(user,cb){
-    axios.post('/api/user',user).then(function (res) {
-        setTimeout(()=>{
-          console.log(res)
-          cb(res.data)
-        },300)
-
-    });
+  userInsert(user){
+    return axios.post('/api/user',user)
   },
-  userDelete:function(uid,cb){
-    axios.delete('/api/user/'+uid).then(function (res) {
-        setTimeout(()=>{
-          console.log(res)
-          cb(res.data)
-        },300)
-    });
+  userDelete(uid){
+    return axios.delete('/api/user/'+uid)
   },
-  userUpdate:function(user,cb){
-    axios.put('/api/user/'+user.uid,user).then(function (res) {
-        setTimeout(()=>{
-          console.log(res)
-          cb(res.data)
-        },300)
-
-    });
+  userUpdate(user){
+    return axios.put('/api/user/'+user.uid,user)
   }
 
 }

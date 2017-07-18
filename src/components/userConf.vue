@@ -142,8 +142,8 @@ import { mapState, mapActions } from 'vuex'
         return new Date(row.createtime).toLocaleString();
       },
       newUser(){
-        api.userInsert(this.form,(data)=>{
-          if(data.result.affectedRows === 1){//插入成功，刷新表单
+        api.userInsert(this.form).then(data => {
+          if(data.data.result.affectedRows === 1){//插入成功，刷新表单
             this.dialogFormVisible = false;
             for(let i in this.form){this.form[i] = '';}
             this.getUserList();
@@ -153,8 +153,8 @@ import { mapState, mapActions } from 'vuex'
         });
       },
       updUser(){
-        api.userUpdate(this.form,(data)=>{
-          if(data.result.affectedRows === 1){//修改成功，刷新表单
+        api.userUpdate(this.form).then(data=>{
+          if(data.data.result.affectedRows === 1){//修改成功，刷新表单
             this.dialogFormVisible = false;
             this.actionType = 1;
             this.getUserList();
@@ -170,8 +170,8 @@ import { mapState, mapActions } from 'vuex'
         this.dialogFormVisible = true;
         },
       handleDelete(index,row) {
-        api.userDelete(row.uid,(data)=>{
-          if(data.result.affectedRows === 1){
+        api.userDelete(row.uid).then(data => {
+          if(data.data.result.affectedRows === 1){
             console.log('删除成功')
             this.getUserList();
           }else{

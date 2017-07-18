@@ -1,0 +1,39 @@
+2017-07-18 17:14:44,406 ERROR 16436 [-/127.0.0.1/-/60ms POST /user] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '1' for key 'PRIMARY'
+    at Query.Sequence._packetToError (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Pool.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.13.0@mysql\lib\Pool.js:199:23)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:29:7
+    at Promise (<anonymous>)
+    at Pool.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:54:5
+    at Promise (<anonymous>)
+    at RDSClient.co (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:50:10)
+    at RDSClient.createPromise [as query] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:30:15)
+    at RDSClient.proto.insert (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.3.0.0@ali-rds\lib\operator.js:141:21)
+    at proto.insert.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\src\egg-server\node_modules\.4.6.0@co\index.js:65:19)
+    sql: INSERT INTO `user`(`uid`, `username`, `password`, `sex`, `mb`, `apartment`, `score`, `createtime`) VALUES('1', 'polo', '123456', '1', '12322222', 'SNS', '20', '2017-07-18T09:14:16.000Z')
+code: 'ER_DUP_ENTRY'
+errno: 1062
+sqlState: '23000'
+index: 0
+name: 'ER_DUP_ENTRYError'
+pid: 16436
+hostname: G-PC
+

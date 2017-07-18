@@ -20,7 +20,7 @@ const actions = {
           showMsg(store,'暂无数据','success')
         }
       },res => {
-        showMsg(store,res.data.error_msg || '获取数据失败')
+        showMsg(store,res.error_msg || '获取数据失败')
       })
   }
 }
