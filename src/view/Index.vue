@@ -15,9 +15,8 @@
       <el-menu default-active="2" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose" theme="dark">
         <el-submenu index="1">
           <template slot="title">成员作品</template>
-          <el-menu-item-group title="">
-            <el-menu-item index="polo">polo</el-menu-item>
-            <el-menu-item index="chopper">chopper</el-menu-item>
+          <el-menu-item-group title="" >
+            <el-menu-item v-for="user in userlist" :index="user.username">{{user.username}}</el-menu-item>
           </el-menu-item-group>
         </el-submenu>
         <el-menu-item index="2"><router-link to="/userConf" tag="div">人员管理</router-link></el-menu-item>
@@ -35,39 +34,27 @@ import { mapState, mapActions } from 'vuex'
 export default {
   data() {
     return {
-      menu: {
-        主页: '/',
-        草帽: '/caomao',
-        西瓜: '/Xigua',
-        黑白: '/BlackWhite',
-        乔巴: '/Chopper',
-        马可波罗: '/Polo',
-        弗洛修: '/fuluo',
-        摩登: '/modeng',
-      }
+
     }
+  },
+  created(){
+    this.getUserList()
   },
   computed:{
     ...mapState({
       username: ({login}) => login.username,
       token: ({login}) => login.token,
-      // message: ({showmsg}) => showmsg.message
+      userlist: ({user}) => user.userlist
     })
   },
   watch: {
-    // 'message': 'alterMsg'
+
   },
   methods: {
     ...mapActions([
-      'logOut'
+      'logOut',
+      'getUserList'
     ]),
-    // alterMsg(){
-    //   let {type,message} = this.message
-    //    this.$message({
-    //      type,
-    //      message
-    //    });
-    // },
     logOutConfirm(){
       this.$confirm('确认注销?', '提示', {
          confirmButtonText: '确定',
@@ -78,10 +65,14 @@ export default {
        })
     },
       handleOpen(key, keyPath) {
+        //根据当前多少个用户动态挂载路由
         console.log(key, keyPath);
+
+        console.log('open')
       },
       handleClose(key, keyPath) {
         console.log(key, keyPath);
+        console.log('close')
       }
     }
 }

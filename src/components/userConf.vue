@@ -109,6 +109,9 @@
 import api from '../api/api'
 import { mapState, mapActions } from 'vuex'
   export default {
+    components:{
+
+    },
     created:function(){
       this.getUserList();
     },

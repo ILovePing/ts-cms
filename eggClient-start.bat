@@ -1,1 +1,1 @@
-cd ./src/egg-server && start start.bat
+cd ./server && npm run dev
