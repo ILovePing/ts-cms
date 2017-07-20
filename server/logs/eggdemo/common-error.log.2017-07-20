@@ -100979,3 +100979,739 @@ name: 'ECONNREFUSEDError'
 pid: 18956
 hostname: G-PC
 
+2017-07-19 21:55:54,326 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:55:55,337 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:55:56,525 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:55:57,624 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:55:58,670 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:55:59,725 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:56:00,824 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:56:01,924 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:56:02,963 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:56:04,025 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:56:05,064 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:56:06,125 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:56:07,173 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:56:08,224 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:56:09,274 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:56:10,424 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:56:11,525 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-19 21:56:12,582 ERROR 17560 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 17560
+hostname: G-PC
+
+2017-07-20 20:15:32,526 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:33,531 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:34,540 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:35,557 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:36,576 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:37,597 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:38,618 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:39,640 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:40,668 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:41,701 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:42,734 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:43,769 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:44,799 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:45,834 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:46,866 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:47,901 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:48,941 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:49,985 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:51,031 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:52,077 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:53,122 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:54,175 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:55,227 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:56,278 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:57,332 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:58,393 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:59,450 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:16:00,510 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 23:32:28,336 ERROR 24997 [-/127.0.0.1/-/25ms GET /user] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'ts-cms.score' doesn't exist
+    at Query.Sequence._packetToError (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:177:18)
+    at Socket.Readable.push (_stream_readable.js:135:10)
+    at TCP.onread (net.js:542:20)
+    --------------------
+    at Pool.query (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/Pool.js:199:23)
+    at /Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.3.0@pify/index.js:29:7
+    at Pool.<anonymous> (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.3.0.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.3.0.0@ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:54:5
+    at RDSClient.co (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:50:10)
+    at RDSClient.createPromise [as query] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:30:15)
+    at UserService.list (/Users/rick/Desktop/2017.8/ts-cms/server/app/service/user.js:10:36)
+    at next (native)
+    at onFulfilled (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:50:10)
+    sql: select * from user
+        inner join score on score.uid = user.uid
+        inner join apartment on apartment.apartmentId = user.apartmentId 
+        where user.outFlag = 0 order by createTime asc
+code: 'ER_NO_SUCH_TABLE'
+errno: 1146
+sqlState: '42S02'
+index: 0
+name: 'ER_NO_SUCH_TABLEError'
+pid: 24997
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-20 23:32:35,130 ERROR 24997 [-/127.0.0.1/-/6ms GET /user] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'ts-cms.score' doesn't exist
+    at Query.Sequence._packetToError (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:177:18)
+    at Socket.Readable.push (_stream_readable.js:135:10)
+    at TCP.onread (net.js:542:20)
+    --------------------
+    at Pool.query (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/Pool.js:199:23)
+    at /Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.3.0@pify/index.js:29:7
+    at Pool.<anonymous> (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.3.0.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.3.0.0@ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:54:5
+    at RDSClient.co (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:50:10)
+    at RDSClient.createPromise [as query] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:30:15)
+    at UserService.list (/Users/rick/Desktop/2017.8/ts-cms/server/app/service/user.js:10:36)
+    at next (native)
+    at onFulfilled (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:54:5
+    at Object.co (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:50:10)
+    sql: select * from user
+        inner join score on score.uid = user.uid
+        inner join apartment on apartment.apartmentId = user.apartmentId 
+        where user.outFlag = 0 order by createTime asc
+code: 'ER_NO_SUCH_TABLE'
+errno: 1146
+sqlState: '42S02'
+index: 0
+name: 'ER_NO_SUCH_TABLEError'
+pid: 24997
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-20 23:35:45,914 ERROR 24997 [-/127.0.0.1/-/8ms POST /user] nodejs.ER_NO_REFERENCED_ROW_2Error: ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`ts-cms`.`user`, CONSTRAINT `PK_APARTMENT_ID` FOREIGN KEY (`apartmentId`) REFERENCES `apartment` (`apartmentId`) ON UPDATE CASCADE)
+    at Query.Sequence._packetToError (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:177:18)
+    at Socket.Readable.push (_stream_readable.js:135:10)
+    at TCP.onread (net.js:542:20)
+    --------------------
+    at Pool.query (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.13.0@mysql/lib/Pool.js:199:23)
+    at /Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.3.0@pify/index.js:29:7
+    at Pool.<anonymous> (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.3.0.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.3.0.0@ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:54:5
+    at RDSClient.co (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:50:10)
+    at RDSClient.createPromise [as query] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:30:15)
+    at RDSClient.proto.insert (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.3.0.0@ali-rds/lib/operator.js:141:21)
+    at next (native)
+    at onFulfilled (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:65:19)
+    at /Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:54:5
+    at RDSClient.co (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.4.6.0@co/index.js:50:10)
+    sql: INSERT INTO `user`(`userName`, `sex`, `apartmentId`, `mb`, `uid`) VALUES('modeng', '1', '', '12', '2')
+code: 'ER_NO_REFERENCED_ROW_2'
+errno: 1452
+sqlState: '23000'
+index: 0
+name: 'ER_NO_REFERENCED_ROW_2Error'
+pid: 24997
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-20 23:51:00,142 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 275096ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-21 00:24:26,528 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 1326164ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
