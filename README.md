@@ -2,11 +2,14 @@
 
 ![](http://og40gjbnu.bkt.clouddn.com/%E9%A1%B9%E7%9B%AE%E6%A1%86%E6%9E%B6%E5%9B%BE1.png)
 
-#E-R图
+# E-R图
 
 ![](http://7xnggx.com1.z0.glb.clouddn.com/e-r%E5%9B%BE.png)
 
 # changelog
+
+2017-07-21 03:42am
+今天修改了表结构，增加了三张表——部门字典表，积分表，会议记录表，对前台api对response如果500错误拦截了做统一的showmsg处理，后台的统一报错处理还可以继续往下研究；servive层加了事务处理，对于插入一个新成员后在score表里自动插入默认20分的记录（和触发器的优劣对比？）。
 
 2017-07-18 00:22am
 
