@@ -11,3 +11,7 @@ export const SET_NAME = 'SET_NAME';
 // 公用提示框
 export const SHOW_MSG = 'SHOW_MSG';
 export const HIDE_MSG = 'HIDE_MSG';
+
+//部门数据字典
+export const GET_APARTMENT_DICT = 'GET_APARTMENT_DICT'
+export const GET_APARTMENT_DICT_FAILURE = 'GET_APARTMENT_DICT_FAILURE'

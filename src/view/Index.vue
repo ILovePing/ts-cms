@@ -16,7 +16,7 @@
         <el-submenu index="1">
           <template slot="title">成员作品</template>
           <el-menu-item-group title="" >
-            <el-menu-item v-for="user in userlist" :index="user.username">{{user.username}}</el-menu-item>
+            <el-menu-item v-for="user in userlist" :index="user.userName">{{user.username}}</el-menu-item>
           </el-menu-item-group>
         </el-submenu>
         <el-menu-item index="2"><router-link to="/userConf" tag="div">人员管理</router-link></el-menu-item>

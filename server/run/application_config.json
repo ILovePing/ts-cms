@@ -39,7 +39,7 @@
         "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.0.2@egg-redis\\config\\locales",
         "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.0.0@egg-session-redis\\config\\locales",
         "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\locales",
-        "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\locales"
+        "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -134,7 +134,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\app\\public",
+      "dir": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -151,7 +151,7 @@
     },
     "view": {
       "root": [
-        "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\app\\view"
+        "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\app\\view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -227,9 +227,9 @@
         "egg-mock": "^3.8.0"
       }
     },
-    "baseDir": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server",
+    "baseDir": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server",
     "HOME": "C:\\Users\\Administrator",
-    "rundir": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\run",
+    "rundir": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -260,7 +260,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\logs\\eggdemo",
+      "dir": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\logs\\eggdemo",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -509,7 +509,7 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\plugin.js",
+      "from": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\plugin.js",
       "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.1.3@egg-view-nunjucks",
       "version": "2.1.3"
     },
@@ -520,7 +520,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\plugin.js",
+      "from": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\plugin.js",
       "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.3.0.0@egg-mysql",
       "version": "3.0.0"
     },
@@ -531,7 +531,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\plugin.js",
+      "from": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\plugin.js",
       "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.0.2@egg-redis",
       "version": "1.0.2"
     },
@@ -544,7 +544,7 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\plugin.js",
+      "from": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\plugin.js",
       "path": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.0.0@egg-session-redis",
       "version": "1.0.0"
     }

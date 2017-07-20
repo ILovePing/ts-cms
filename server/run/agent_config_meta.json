@@ -1,36 +1,36 @@
 {
-  "keys": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
+  "keys": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
   "redis": {
     "client": {
-      "host": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-      "port": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-      "password": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-      "db": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js"
+      "host": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
+      "port": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
+      "password": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
+      "db": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js"
     },
     "default": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.0.2@egg-redis\\config\\config.default.js",
     "app": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.0.2@egg-redis\\config\\config.default.js",
     "agent": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.0.2@egg-redis\\config\\config.default.js"
   },
   "sessionRedis": {
-    "name": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js"
+    "name": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js"
   },
-  "middleware": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
+  "middleware": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
   "errorHandler": {
-    "match": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js"
+    "match": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js"
   },
   "robot": {
-    "ua": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js"
+    "ua": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js"
   },
   "mysql": {
     "client": {
-      "host": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-      "port": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-      "user": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-      "password": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-      "database": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js"
+      "host": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
+      "port": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
+      "user": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
+      "password": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
+      "database": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js"
     },
-    "app": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-    "agent": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
+    "app": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
+    "agent": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
     "default": {
       "database": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.3.0.0@egg-mysql\\config\\config.default.js",
       "connectionLimit": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.3.0.0@egg-mysql\\config\\config.default.js"

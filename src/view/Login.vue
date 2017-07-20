@@ -44,24 +44,13 @@ import { mapState, mapActions } from 'vuex'
       };
     },
     computed:{
-      // ...mapState({
-      //   message: ({showmsg}) => showmsg.message
-      // })
     },
     watch: {
-      // 'message': 'alterMsg'
     },
     methods: {
       ...mapActions([
         'logIn'
       ]),
-      // alterMsg(){
-      //   let {type,message} = this.message
-	    //    this.$message({
-      //      type,
-      //      message
-      //    });
-      // },
       submitForm(formName) {
         this.$refs[formName].validate((valid) => {
           if (valid) {

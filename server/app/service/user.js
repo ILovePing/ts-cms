@@ -7,10 +7,13 @@ module.exports = app =>{
       };
     }
     * list(){
-      const user = yield app.mysql.select('user')
+      const user = yield app.mysql.query(`select * from user
+        inner join score on score.uid = user.uid
+        inner join apartment on apartment.apartmentId = user.apartmentId 
+        where user.outFlag = 0 order by createTime asc`)
       return {
         user,
-      };
+      }
     }
     * insert(user){
       const result = yield app.mysql.insert('user', user)

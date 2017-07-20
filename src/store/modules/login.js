@@ -5,7 +5,7 @@ import {
   SET_NAME
 } from '../mutation-types'
 import { showMsg } from '../actions'
-import api from '../../api/api'
+import api from '../../api'
 import router from '../../router/index'
 import cookieUtil from 'js-cookie'
 const state = {

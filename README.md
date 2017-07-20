@@ -1,6 +1,9 @@
 # egg + vue
 
 ![](http://og40gjbnu.bkt.clouddn.com/%E9%A1%B9%E7%9B%AE%E6%A1%86%E6%9E%B6%E5%9B%BE1.png)
+
+#E-R图
+![](http://7xnggx.com1.z0.glb.clouddn.com/e-r%E5%9B%BE.png)
 # changelog
 2017-07-18 00:22am
 

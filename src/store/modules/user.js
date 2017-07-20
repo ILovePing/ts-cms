@@ -1,4 +1,4 @@
-import api from '../../api/api'
+import api from '../../api'
 import {showMsg} from '../actions'
 import {
   GET_USER_LIST,

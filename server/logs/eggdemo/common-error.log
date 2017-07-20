@@ -101213,3 +101213,367 @@ name: 'ECONNREFUSEDError'
 pid: 17560
 hostname: G-PC
 
+2017-07-20 20:15:32,526 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:33,531 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:34,540 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:35,557 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:36,576 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:37,597 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:38,618 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:39,640 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:40,668 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:41,701 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:42,734 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:43,769 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:44,799 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:45,834 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:46,866 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:47,901 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:48,941 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:49,985 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:51,031 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:52,077 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:53,122 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:54,175 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:55,227 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:56,278 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:57,332 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:58,393 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:15:59,450 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+
+2017-07-20 20:16:00,510 ERROR 9756 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 9756
+hostname: G-PC
+

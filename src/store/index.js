@@ -5,6 +5,7 @@ import getters from './getters';
 import user from './modules/user'
 import showmsg from './modules/showmsg'
 import login from './modules/login'
+import apartment from './modules/apartment'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
@@ -13,6 +14,7 @@ export default new Vuex.Store({
   modules:{
     user,
     showmsg,
-    login
+    login,
+    apartment
   }
 })

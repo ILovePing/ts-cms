@@ -68,3 +68,183 @@
 2017-07-19 21:55:53,730 INFO 17560 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jul 19 2017 21:55:53 GMT+0800 (中国标准时间)
 2017-07-19 21:56:12,667 INFO 17560 [egg-redis] connect success on redis://:@127.0.0.1:6379/0
 2017-07-19 21:56:12,671 INFO 17560 [egg-redis] instance[0] status OK, redis currentTime: #
+2017-07-20 09:33:56,410 INFO 2248 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-20 09:33:57,649 INFO 2248 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-20 09:33:57,650 INFO 2248 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-20 09:33:57,690 INFO 2248 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-20 09:34:00,515 INFO 2248 [egg-redis] connecting redis://:@127.0.0.1:6379/0
+2017-07-20 09:34:05,277 INFO 2248 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\app\public
+2017-07-20 09:34:05,361 INFO 2248 [egg-security] use csrf middleware
+2017-07-20 09:34:05,389 INFO 2248 [egg-security] use methodnoallow middleware
+2017-07-20 09:34:05,391 INFO 2248 [egg-security] use noopen middleware
+2017-07-20 09:34:05,393 INFO 2248 [egg-security] use nosniff middleware
+2017-07-20 09:34:05,404 INFO 2248 [egg-security] use xssProtection middleware
+2017-07-20 09:34:05,420 INFO 2248 [egg-security] use xframe middleware
+2017-07-20 09:34:05,443 INFO 2248 [egg-security] use dta middleware
+2017-07-20 09:34:05,443 INFO 2248 [egg-security] compose 7 middlewares into one security middleware
+2017-07-20 09:34:05,636 INFO 2248 [egg-redis] connect success on redis://:@127.0.0.1:6379/0
+2017-07-20 09:34:05,718 INFO 2248 [egg-redis] instance[0] status OK, redis currentTime: #
+2017-07-20 09:34:05,731 INFO 2248 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 20 2017 09:34:05 GMT+0800 (中国标准时间)
+2017-07-20 09:34:05,736 INFO 2248 [egg-watcher:app] watcher start success
+2017-07-20 20:15:26,733 INFO 9756 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-20 20:15:27,273 INFO 9756 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-20 20:15:27,273 INFO 9756 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-20 20:15:27,319 INFO 9756 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-20 20:15:29,024 INFO 9756 [egg-redis] connecting redis://:@127.0.0.1:6379/0
+2017-07-20 20:15:31,293 INFO 9756 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\app\public
+2017-07-20 20:15:31,355 INFO 9756 [egg-security] use csrf middleware
+2017-07-20 20:15:31,380 INFO 9756 [egg-security] use methodnoallow middleware
+2017-07-20 20:15:31,383 INFO 9756 [egg-security] use noopen middleware
+2017-07-20 20:15:31,385 INFO 9756 [egg-security] use nosniff middleware
+2017-07-20 20:15:31,403 INFO 9756 [egg-security] use xssProtection middleware
+2017-07-20 20:15:31,428 INFO 9756 [egg-security] use xframe middleware
+2017-07-20 20:15:31,451 INFO 9756 [egg-security] use dta middleware
+2017-07-20 20:15:31,451 INFO 9756 [egg-security] compose 7 middlewares into one security middleware
+2017-07-20 20:15:31,548 INFO 9756 [egg-watcher:app] watcher start success
+2017-07-20 20:15:31,550 INFO 9756 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 20 2017 20:15:31 GMT+0800 (中国标准时间)
+2017-07-20 20:16:01,074 INFO 9756 [egg-redis] connect success on redis://:@127.0.0.1:6379/0
+2017-07-20 20:16:01,077 INFO 9756 [egg-redis] instance[0] status OK, redis currentTime: #
+2017-07-20 21:09:06,637 INFO 18036 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-20 21:09:06,903 INFO 18036 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-20 21:09:06,903 INFO 18036 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-20 21:09:07,180 INFO 18036 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-20 21:09:09,139 INFO 18036 [egg-redis] connecting redis://:@127.0.0.1:6379/0
+2017-07-20 21:09:10,084 INFO 18036 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\app\public
+2017-07-20 21:09:10,163 INFO 18036 [egg-security] use csrf middleware
+2017-07-20 21:09:10,172 INFO 18036 [egg-security] use methodnoallow middleware
+2017-07-20 21:09:10,175 INFO 18036 [egg-security] use noopen middleware
+2017-07-20 21:09:10,177 INFO 18036 [egg-security] use nosniff middleware
+2017-07-20 21:09:10,182 INFO 18036 [egg-security] use xssProtection middleware
+2017-07-20 21:09:10,185 INFO 18036 [egg-security] use xframe middleware
+2017-07-20 21:09:10,188 INFO 18036 [egg-security] use dta middleware
+2017-07-20 21:09:10,188 INFO 18036 [egg-security] compose 7 middlewares into one security middleware
+2017-07-20 21:09:10,342 INFO 18036 [egg-redis] connect success on redis://:@127.0.0.1:6379/0
+2017-07-20 21:09:10,367 INFO 18036 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 20 2017 21:09:10 GMT+0800 (中国标准时间)
+2017-07-20 21:09:10,369 INFO 18036 [egg-watcher:app] watcher start success
+2017-07-20 21:09:10,370 INFO 18036 [egg-redis] instance[0] status OK, redis currentTime: #
+2017-07-20 21:10:22,547 INFO 16192 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-20 21:10:22,589 INFO 16192 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-20 21:10:22,589 INFO 16192 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-20 21:10:22,615 INFO 16192 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-20 21:10:22,938 INFO 16192 [egg-redis] connecting redis://:@127.0.0.1:6379/0
+2017-07-20 21:10:23,195 INFO 16192 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\app\public
+2017-07-20 21:10:23,198 INFO 16192 [egg-security] use csrf middleware
+2017-07-20 21:10:23,205 INFO 16192 [egg-security] use methodnoallow middleware
+2017-07-20 21:10:23,206 INFO 16192 [egg-security] use noopen middleware
+2017-07-20 21:10:23,206 INFO 16192 [egg-security] use nosniff middleware
+2017-07-20 21:10:23,207 INFO 16192 [egg-security] use xssProtection middleware
+2017-07-20 21:10:23,208 INFO 16192 [egg-security] use xframe middleware
+2017-07-20 21:10:23,208 INFO 16192 [egg-security] use dta middleware
+2017-07-20 21:10:23,208 INFO 16192 [egg-security] compose 7 middlewares into one security middleware
+2017-07-20 21:10:23,258 INFO 16192 [egg-redis] connect success on redis://:@127.0.0.1:6379/0
+2017-07-20 21:10:23,280 INFO 16192 [egg-watcher:app] watcher start success
+2017-07-20 21:10:23,282 INFO 16192 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 20 2017 21:10:23 GMT+0800 (中国标准时间)
+2017-07-20 21:10:23,285 INFO 16192 [egg-redis] instance[0] status OK, redis currentTime: #
+2017-07-20 21:10:56,864 INFO 2588 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-20 21:10:56,907 INFO 2588 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-20 21:10:56,907 INFO 2588 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-20 21:10:56,934 INFO 2588 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-20 21:10:57,120 INFO 2588 [egg-redis] connecting redis://:@127.0.0.1:6379/0
+2017-07-20 21:10:57,246 INFO 2588 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\app\public
+2017-07-20 21:10:57,252 INFO 2588 [egg-security] use csrf middleware
+2017-07-20 21:10:57,255 INFO 2588 [egg-security] use methodnoallow middleware
+2017-07-20 21:10:57,257 INFO 2588 [egg-security] use noopen middleware
+2017-07-20 21:10:57,258 INFO 2588 [egg-security] use nosniff middleware
+2017-07-20 21:10:57,259 INFO 2588 [egg-security] use xssProtection middleware
+2017-07-20 21:10:57,260 INFO 2588 [egg-security] use xframe middleware
+2017-07-20 21:10:57,261 INFO 2588 [egg-security] use dta middleware
+2017-07-20 21:10:57,261 INFO 2588 [egg-security] compose 7 middlewares into one security middleware
+2017-07-20 21:10:57,316 INFO 2588 [egg-redis] connect success on redis://:@127.0.0.1:6379/0
+2017-07-20 21:10:57,340 INFO 2588 [egg-watcher:app] watcher start success
+2017-07-20 21:10:57,343 INFO 2588 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 20 2017 21:10:57 GMT+0800 (中国标准时间)
+2017-07-20 21:10:57,344 INFO 2588 [egg-redis] instance[0] status OK, redis currentTime: #
+2017-07-20 21:11:22,357 INFO 14144 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-20 21:11:22,404 INFO 14144 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-20 21:11:22,404 INFO 14144 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-20 21:11:22,429 INFO 14144 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-20 21:11:22,616 INFO 14144 [egg-redis] connecting redis://:@127.0.0.1:6379/0
+2017-07-20 21:11:22,731 INFO 14144 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\app\public
+2017-07-20 21:11:22,734 INFO 14144 [egg-security] use csrf middleware
+2017-07-20 21:11:22,736 INFO 14144 [egg-security] use methodnoallow middleware
+2017-07-20 21:11:22,737 INFO 14144 [egg-security] use noopen middleware
+2017-07-20 21:11:22,738 INFO 14144 [egg-security] use nosniff middleware
+2017-07-20 21:11:22,739 INFO 14144 [egg-security] use xssProtection middleware
+2017-07-20 21:11:22,740 INFO 14144 [egg-security] use xframe middleware
+2017-07-20 21:11:22,740 INFO 14144 [egg-security] use dta middleware
+2017-07-20 21:11:22,740 INFO 14144 [egg-security] compose 7 middlewares into one security middleware
+2017-07-20 21:11:22,791 INFO 14144 [egg-redis] connect success on redis://:@127.0.0.1:6379/0
+2017-07-20 21:11:22,810 INFO 14144 [egg-watcher:app] watcher start success
+2017-07-20 21:11:22,814 INFO 14144 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 20 2017 21:11:22 GMT+0800 (中国标准时间)
+2017-07-20 21:11:22,814 INFO 14144 [egg-redis] instance[0] status OK, redis currentTime: #
+2017-07-20 21:11:52,865 INFO 10236 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-20 21:11:52,915 INFO 10236 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-20 21:11:52,915 INFO 10236 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-20 21:11:52,947 INFO 10236 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-20 21:11:53,167 INFO 10236 [egg-redis] connecting redis://:@127.0.0.1:6379/0
+2017-07-20 21:11:53,290 INFO 10236 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\app\public
+2017-07-20 21:11:53,297 INFO 10236 [egg-security] use csrf middleware
+2017-07-20 21:11:53,301 INFO 10236 [egg-security] use methodnoallow middleware
+2017-07-20 21:11:53,302 INFO 10236 [egg-security] use noopen middleware
+2017-07-20 21:11:53,304 INFO 10236 [egg-security] use nosniff middleware
+2017-07-20 21:11:53,304 INFO 10236 [egg-security] use xssProtection middleware
+2017-07-20 21:11:53,306 INFO 10236 [egg-security] use xframe middleware
+2017-07-20 21:11:53,307 INFO 10236 [egg-security] use dta middleware
+2017-07-20 21:11:53,307 INFO 10236 [egg-security] compose 7 middlewares into one security middleware
+2017-07-20 21:11:53,354 INFO 10236 [egg-redis] connect success on redis://:@127.0.0.1:6379/0
+2017-07-20 21:11:53,374 INFO 10236 [egg-watcher:app] watcher start success
+2017-07-20 21:11:53,376 INFO 10236 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 20 2017 21:11:53 GMT+0800 (中国标准时间)
+2017-07-20 21:11:53,376 INFO 10236 [egg-redis] instance[0] status OK, redis currentTime: #
+2017-07-20 21:12:11,801 INFO 20516 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-20 21:12:11,846 INFO 20516 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-20 21:12:11,846 INFO 20516 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-20 21:12:11,876 INFO 20516 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-20 21:12:12,216 INFO 20516 [egg-redis] connecting redis://:@127.0.0.1:6379/0
+2017-07-20 21:12:12,341 INFO 20516 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\app\public
+2017-07-20 21:12:12,344 INFO 20516 [egg-security] use csrf middleware
+2017-07-20 21:12:12,346 INFO 20516 [egg-security] use methodnoallow middleware
+2017-07-20 21:12:12,347 INFO 20516 [egg-security] use noopen middleware
+2017-07-20 21:12:12,348 INFO 20516 [egg-security] use nosniff middleware
+2017-07-20 21:12:12,349 INFO 20516 [egg-security] use xssProtection middleware
+2017-07-20 21:12:12,350 INFO 20516 [egg-security] use xframe middleware
+2017-07-20 21:12:12,351 INFO 20516 [egg-security] use dta middleware
+2017-07-20 21:12:12,351 INFO 20516 [egg-security] compose 7 middlewares into one security middleware
+2017-07-20 21:12:12,393 INFO 20516 [egg-redis] connect success on redis://:@127.0.0.1:6379/0
+2017-07-20 21:12:12,411 INFO 20516 [egg-watcher:app] watcher start success
+2017-07-20 21:12:12,414 INFO 20516 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 20 2017 21:12:12 GMT+0800 (中国标准时间)
+2017-07-20 21:12:12,415 INFO 20516 [egg-redis] instance[0] status OK, redis currentTime: #
+2017-07-20 21:12:24,015 INFO 9260 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-20 21:12:24,062 INFO 9260 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-20 21:12:24,062 INFO 9260 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-20 21:12:24,090 INFO 9260 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-20 21:12:24,296 INFO 9260 [egg-redis] connecting redis://:@127.0.0.1:6379/0
+2017-07-20 21:12:24,416 INFO 9260 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\app\public
+2017-07-20 21:12:24,419 INFO 9260 [egg-security] use csrf middleware
+2017-07-20 21:12:24,422 INFO 9260 [egg-security] use methodnoallow middleware
+2017-07-20 21:12:24,423 INFO 9260 [egg-security] use noopen middleware
+2017-07-20 21:12:24,424 INFO 9260 [egg-security] use nosniff middleware
+2017-07-20 21:12:24,424 INFO 9260 [egg-security] use xssProtection middleware
+2017-07-20 21:12:24,425 INFO 9260 [egg-security] use xframe middleware
+2017-07-20 21:12:24,426 INFO 9260 [egg-security] use dta middleware
+2017-07-20 21:12:24,426 INFO 9260 [egg-security] compose 7 middlewares into one security middleware
+2017-07-20 21:12:24,472 INFO 9260 [egg-redis] connect success on redis://:@127.0.0.1:6379/0
+2017-07-20 21:12:24,486 INFO 9260 [egg-watcher:app] watcher start success
+2017-07-20 21:12:24,491 INFO 9260 [egg-redis] instance[0] status OK, redis currentTime: #
+2017-07-20 21:12:24,497 INFO 9260 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 20 2017 21:12:24 GMT+0800 (中国标准时间)
+2017-07-20 21:17:34,891 INFO 9424 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-07-20 21:17:34,934 INFO 9424 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\clean_log.js
+2017-07-20 21:17:34,934 INFO 9424 [egg-schedule]: register schedule egg-schedule:c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.2.3@egg-logrotator\app\schedule\rotate_by_file.js
+2017-07-20 21:17:34,960 INFO 9424 [egg-mysql] connecting root@127.0.0.1:3306/ts-cms
+2017-07-20 21:17:35,144 INFO 9424 [egg-redis] connecting redis://:@127.0.0.1:6379/0
+2017-07-20 21:17:35,265 INFO 9424 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\app\public
+2017-07-20 21:17:35,268 INFO 9424 [egg-security] use csrf middleware
+2017-07-20 21:17:35,271 INFO 9424 [egg-security] use methodnoallow middleware
+2017-07-20 21:17:35,272 INFO 9424 [egg-security] use noopen middleware
+2017-07-20 21:17:35,272 INFO 9424 [egg-security] use nosniff middleware
+2017-07-20 21:17:35,273 INFO 9424 [egg-security] use xssProtection middleware
+2017-07-20 21:17:35,274 INFO 9424 [egg-security] use xframe middleware
+2017-07-20 21:17:35,275 INFO 9424 [egg-security] use dta middleware
+2017-07-20 21:17:35,275 INFO 9424 [egg-security] compose 7 middlewares into one security middleware
+2017-07-20 21:17:35,323 INFO 9424 [egg-redis] connect success on redis://:@127.0.0.1:6379/0
+2017-07-20 21:17:35,338 INFO 9424 [egg-watcher:app] watcher start success
+2017-07-20 21:17:35,341 INFO 9424 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 20 2017 21:17:35 GMT+0800 (中国标准时间)
+2017-07-20 21:17:35,341 INFO 9424 [egg-redis] instance[0] status OK, redis currentTime: #
