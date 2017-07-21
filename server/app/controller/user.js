@@ -24,7 +24,7 @@ module.exports = app => {
       const user = ctx.request.body
       const res = yield ctx.service.user.update(user,{
         where:{uid:user.uid},
-        columns:['username','sex','apartment','mb']
+        columns:['userName','sex','apartmentId','mb']
       });
       ctx.body = res;
       ctx.status = 200;

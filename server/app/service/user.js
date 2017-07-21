@@ -9,14 +9,20 @@ module.exports = app =>{
     * list(){
       const user = yield app.mysql.query(`select * from user
         inner join score on score.uid = user.uid
-        inner join apartment on apartment.apartmentId = user.apartmentId 
+        inner join apartment on apartment.apartmentId = user.apartmentId
         where user.outFlag = 0 order by createTime asc`)
       return {
         user,
       }
     }
     * insert(user){
-      const result = yield app.mysql.insert('user', user)
+      const ctx = this.ctx;
+      const result = yield app.mysql.beginTransactionScope(function* (conn) {
+        // don't commit or rollback by yourself
+        yield conn.insert('user', user);
+        yield conn.insert('score', {uid:user.uid});
+        return { success: true };
+      }, ctx);
       return {
         result
       }

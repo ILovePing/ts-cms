@@ -1,225 +1,225 @@
 {
-  "keys": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
+  "keys": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js",
   "redis": {
     "client": {
-      "host": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-      "port": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-      "password": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-      "db": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js"
+      "host": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js",
+      "port": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js",
+      "password": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js",
+      "db": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js"
     },
-    "default": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.0.2@egg-redis\\config\\config.default.js",
-    "app": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.0.2@egg-redis\\config\\config.default.js",
-    "agent": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.0.2@egg-redis\\config\\config.default.js"
+    "default": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.0.2@egg-redis/config/config.default.js",
+    "app": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.0.2@egg-redis/config/config.default.js",
+    "agent": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.0.2@egg-redis/config/config.default.js"
   },
   "sessionRedis": {
-    "name": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js"
+    "name": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js"
   },
-  "middleware": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
+  "middleware": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js",
   "errorHandler": {
-    "match": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js"
+    "match": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js"
   },
   "robot": {
-    "ua": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js"
+    "ua": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js"
   },
   "mysql": {
     "client": {
-      "host": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-      "port": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-      "user": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-      "password": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-      "database": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js"
+      "host": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js",
+      "port": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js",
+      "user": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js",
+      "password": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js",
+      "database": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js"
     },
-    "app": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
-    "agent": "C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\config\\config.default.js",
+    "app": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js",
+    "agent": "/Users/rick/Desktop/2017.8/ts-cms/server/config/config.default.js",
     "default": {
-      "database": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.3.0.0@egg-mysql\\config\\config.default.js",
-      "connectionLimit": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.3.0.0@egg-mysql\\config\\config.default.js"
+      "database": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.3.0.0@egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.3.0.0@egg-mysql/config/config.default.js"
     }
   },
   "security": {
     "hsts": {
-      "enable": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.12.0@egg-security\\config\\config.local.js"
+      "enable": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.12.0@egg-security/config/config.local.js"
     }
   },
   "onerror": {
-    "errorPageUrl": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.4.6@egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.4.6@egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.5.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.5.0@egg-onerror/config/config.default.js"
   },
   "session": {
-    "maxAge": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.1.1@egg-session\\config\\config.default.js",
-    "key": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.1.1@egg-session\\config\\config.default.js",
-    "httpOnly": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.1.1@egg-session\\config\\config.default.js",
-    "encrypt": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.1.1@egg-session\\config\\config.default.js"
+    "maxAge": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.1.1@egg-session/config/config.default.js",
+    "key": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.1.1@egg-session/config/config.default.js",
+    "httpOnly": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.1.1@egg-session/config/config.default.js",
+    "encrypt": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.1.1@egg-session/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.1.1@egg-i18n\\config\\config.default.js",
-    "dirs": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.1.1@egg-i18n\\config\\config.default.js",
-    "queryField": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.1.1@egg-i18n\\config\\config.default.js",
-    "cookieField": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.1.1@egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.1.1@egg-i18n\\config\\config.default.js"
+    "defaultLocale": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.1.1@egg-i18n/config/config.default.js",
+    "dirs": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.1.1@egg-i18n/config/config.default.js",
+    "queryField": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.1.1@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.1.1@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.1.1@egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.1.3@egg-watcher\\config\\config.local.js",
+    "type": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.1.3@egg-watcher/config/config.local.js",
     "eventSources": {
-      "default": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.1.3@egg-watcher\\config\\config.default.js",
-      "development": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.1.3@egg-watcher\\config\\config.default.js"
+      "default": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.1.3@egg-watcher/config/config.default.js",
+      "development": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.1.3@egg-watcher/config/config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.5.0@egg-multipart\\config\\config.default.js",
-    "defaultCharset": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.5.0@egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.5.0@egg-multipart\\config\\config.default.js",
-    "fieldSize": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.5.0@egg-multipart\\config\\config.default.js",
-    "fields": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.5.0@egg-multipart\\config\\config.default.js",
-    "fileSize": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.5.0@egg-multipart\\config\\config.default.js",
-    "files": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.5.0@egg-multipart\\config\\config.default.js",
-    "fileExtensions": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.5.0@egg-multipart\\config\\config.default.js",
-    "whitelist": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.5.0@egg-multipart\\config\\config.default.js"
+    "autoFields": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.5.0@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.5.0@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.5.0@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.5.0@egg-multipart/config/config.default.js",
+    "fields": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.5.0@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.5.0@egg-multipart/config/config.default.js",
+    "files": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.5.0@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.5.0@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.5.0@egg-multipart/config/config.default.js"
   },
   "helper": {
-    "shtml": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.12.0@egg-security\\config\\config.default.js"
+    "shtml": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.12.0@egg-security/config/config.default.js"
   },
   "development": {
-    "watchDirs": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.3.1@egg-development\\config\\config.default.js",
-    "ignoreDirs": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.3.1@egg-development\\config\\config.default.js",
-    "fastReady": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.3.1@egg-development\\config\\config.default.js",
-    "reloadOnDebug": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.3.1@egg-development\\config\\config.default.js"
+    "watchDirs": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.3.1@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.3.1@egg-development/config/config.default.js",
+    "fastReady": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.3.1@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.3.1@egg-development/config/config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.2.3@egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.2.3@egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.2.3@egg-logrotator\\config\\config.default.js",
-    "maxFiles": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.2.3@egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.2.3@egg-logrotator\\config\\config.default.js",
-    "maxDays": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.2.3@egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.2.3@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.2.3@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.2.3@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.2.3@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.2.3@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.2.3@egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.4.1@egg-static\\config\\config.default.js",
-    "dir": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.4.1@egg-static\\config\\config.default.js",
-    "dynamic": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.4.1@egg-static\\config\\config.default.js",
-    "preload": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.4.1@egg-static\\config\\config.default.js",
-    "buffer": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.4.1@egg-static\\config\\config.default.js",
-    "maxFiles": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.4.1@egg-static\\config\\config.default.js"
+    "prefix": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.4.1@egg-static/config/config.default.js",
+    "dir": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.4.1@egg-static/config/config.default.js",
+    "dynamic": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.4.1@egg-static/config/config.default.js",
+    "preload": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.4.1@egg-static/config/config.default.js",
+    "buffer": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.4.1@egg-static/config/config.default.js",
+    "maxFiles": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.4.1@egg-static/config/config.default.js"
   },
   "jsonp": {
-    "limit": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.1.1@egg-jsonp\\config\\config.default.js",
-    "callback": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.1.1@egg-jsonp\\config\\config.default.js",
-    "csrf": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.1.1@egg-jsonp\\config\\config.default.js"
+    "limit": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.1.1@egg-jsonp/config/config.default.js",
+    "callback": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.1.1@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.1.1@egg-jsonp/config/config.default.js"
   },
   "view": {
-    "root": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.1.2@egg-view\\config\\config.default.js",
-    "cache": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.1.2@egg-view\\config\\config.local.js",
-    "defaultExtension": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.1.2@egg-view\\config\\config.default.js",
-    "defaultViewEngine": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.1.2@egg-view\\config\\config.default.js",
-    "mapping": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.1.2@egg-view\\config\\config.default.js"
+    "root": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.1.2@egg-view/config/config.default.js",
+    "cache": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.1.2@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.1.2@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.1.2@egg-view/config/config.default.js",
+    "mapping": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.1.2@egg-view/config/config.default.js"
   },
   "nunjucks": {
-    "autoescape": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.1.3@egg-view-nunjucks\\config\\config.default.js",
-    "throwOnUndefined": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.1.3@egg-view-nunjucks\\config\\config.default.js",
-    "trimBlocks": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.1.3@egg-view-nunjucks\\config\\config.default.js",
-    "lstripBlocks": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.1.3@egg-view-nunjucks\\config\\config.default.js",
-    "cache": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.2.1.3@egg-view-nunjucks\\config\\config.local.js"
+    "autoescape": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.1.3@egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.1.3@egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.1.3@egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.1.3@egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.2.1.3@egg-view-nunjucks/config/config.local.js"
   },
-  "env": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-  "name": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-  "proxy": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-  "protocolHeaders": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-  "ipHeaders": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-  "hostHeaders": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
+  "env": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+  "name": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+  "proxy": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+  "protocolHeaders": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+  "ipHeaders": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+  "hostHeaders": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
   "pkg": {
-    "name": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "version": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "description": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "main": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
+    "name": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "version": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "description": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "main": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
     "scripts": {
-      "dev": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "test": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js"
+      "dev": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "test": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js"
     },
-    "author": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "license": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
+    "author": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "license": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
     "dependencies": {
-      "egg": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "egg-bin": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "egg-mysql": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "egg-redis": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "egg-session-redis": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "egg-view-nunjucks": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "is-type-of": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "test-exclude": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js"
+      "egg": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "egg-bin": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "egg-mysql": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "egg-redis": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "egg-session-redis": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "is-type-of": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "test-exclude": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "egg-mock": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js"
+      "egg-bin": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "egg-mock": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js"
     }
   },
-  "baseDir": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-  "HOME": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-  "rundir": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
+  "baseDir": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+  "HOME": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+  "rundir": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
   "dump": {
-    "ignore": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js"
+    "ignore": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "notFound": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "sitefile": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "middlewares": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "httpClient": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js"
+    "bodyparser": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "notFound": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "sitefile": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "middlewares": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "httpClient": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js"
+    "pageUrl": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js"
+    "/favicon.ico": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "encoding": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "formLimit": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "jsonLimit": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "strict": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
+    "enable": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "encoding": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "formLimit": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "jsonLimit": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "strict": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "depth": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "parameterLimit": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js"
+      "arrayLimit": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "depth": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "parameterLimit": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js"
     }
   },
   "logger": {
-    "dir": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "encoding": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "env": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "level": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "consoleLevel": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "outputJSON": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "buffer": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "appLogName": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "coreLogName": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "agentLogName": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "errorLogName": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
+    "dir": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "encoding": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "env": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "level": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "consoleLevel": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "outputJSON": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "buffer": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "appLogName": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "coreLogName": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "agentLogName": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "errorLogName": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
     "coreLogger": {
-      "consoleLevel": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.local.js"
+      "consoleLevel": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.local.js"
     }
   },
   "httpclient": {
-    "enableDNSCache": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-    "dnsCacheMaxAge": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
+    "enableDNSCache": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
     "request": {
-      "timeout": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js"
+      "timeout": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "maxSockets": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "maxFreeSockets": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js"
+      "keepAlive": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "maxSockets": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "maxSockets": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-      "maxFreeSockets": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js"
+      "keepAlive": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "maxSockets": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js"
     }
   },
-  "coreMiddleware": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js",
-  "workerStartTimeout": "c:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\node_modules\\.1.6.1@egg\\config\\config.default.js"
+  "coreMiddleware": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.1@egg/config/config.default.js"
 }

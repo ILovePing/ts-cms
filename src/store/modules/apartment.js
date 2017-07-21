@@ -11,12 +11,11 @@ const state = {
 const actions = {
   getAptDict(store){
     api.apartmentQry().then(res => {
-      console.log(res.data)
-        if(res.data.apartment){
+        if(res.data.apartmentlist){
           store.commit(GET_APARTMENT_DICT,res.data)
         }else{
           store.commit(GET_APARTMENT_DICT_FAILURE)
-          showMsg(store,'更新','success')
+          showMsg(store,'更新成功','success')
         }
       },res => {
         showMsg(store,res.error_msg || '获取数据失败')

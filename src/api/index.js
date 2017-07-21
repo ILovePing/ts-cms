@@ -1,6 +1,7 @@
 import axios from 'axios';
 import qs from 'qs';
 import cookieUtil from 'js-cookie'
+import store from '../store'
 axios.defaults.timeout = 5000;                        //响应时间
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8';           //配置
 //POST传参序列化
@@ -24,9 +25,12 @@ axios.interceptors.response.use(
         return response;
     },
     error => {
+      console.log(error)
         if (error.response) {
             switch (error.response.status) {
-                case 401:
+                case 401:break;//假定401为约定好的后台session失效的状态吗，页面重新跳转到登陆页清掉cookie缓存
+                case 500:
+                    store.dispatch('showMsg',error.response.statusText)
                     // 返回 401 清除token信息并跳转到登录页面
                     // store.commit(types.LOGOUT);
                     // router.replace({
