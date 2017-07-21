@@ -27,3 +27,5 @@
 2017-07-20 21:17:32,987 WARN 12064 [agent:development] reload worker because C:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\app\service\apartment.js change
 2017-07-20 21:17:35,325 WARN 12064 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
 2017-07-20 21:26:57,203 WARN 12064 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-21 09:59:59,792 INFO 11948 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\前端俱乐部\\ThousandSunny\\vue-components\\server\\logs\\eggdemo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggdemo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-07-21 10:00:03,258 INFO 11948 [egg-watcher:agent] watcher start success

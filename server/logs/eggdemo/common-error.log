@@ -101577,3 +101577,198 @@ name: 'ECONNREFUSEDError'
 pid: 9756
 hostname: G-PC
 
+2017-07-21 10:00:10,986 ERROR 18484 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 18484
+hostname: G-PC
+
+2017-07-21 10:00:11,991 ERROR 18484 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 18484
+hostname: G-PC
+
+2017-07-21 10:00:13,018 ERROR 18484 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 18484
+hostname: G-PC
+
+2017-07-21 10:00:14,028 ERROR 18484 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 18484
+hostname: G-PC
+
+2017-07-21 10:00:15,042 ERROR 18484 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 18484
+hostname: G-PC
+
+2017-07-21 10:00:16,055 ERROR 18484 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 18484
+hostname: G-PC
+
+2017-07-21 10:00:17,077 ERROR 18484 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 18484
+hostname: G-PC
+
+2017-07-21 10:00:18,095 ERROR 18484 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 18484
+hostname: G-PC
+
+2017-07-21 10:00:19,118 ERROR 18484 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 18484
+hostname: G-PC
+
+2017-07-21 10:00:20,144 ERROR 18484 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 18484
+hostname: G-PC
+
+2017-07-21 10:00:21,179 ERROR 18484 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 18484
+hostname: G-PC
+
+2017-07-21 10:00:22,206 ERROR 18484 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 18484
+hostname: G-PC
+
+2017-07-21 10:00:23,235 ERROR 18484 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 18484
+hostname: G-PC
+
+2017-07-21 10:00:24,267 ERROR 18484 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 18484
+hostname: G-PC
+
+2017-07-21 10:00:25,381 ERROR 18484 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 18484
+hostname: G-PC
+
