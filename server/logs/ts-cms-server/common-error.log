@@ -1,0 +1,39 @@
+2017-07-21 16:19:07,002 ERROR 24892 [-/127.0.0.1/-/66ms POST /user] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry '1' for key 'PRIMARY'
+    at Query.Sequence._packetToError (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.13.0@mysql\lib\Connection.js:208:25)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.3.0@pify\index.js:29:7
+    at Promise (<anonymous>)
+    at PoolConnection.<anonymous> (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.3.0@pify\index.js:12:10)
+    at PoolConnection.ret [as query] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.2.3.0@pify\index.js:56:34)
+    at RDSConnection.proto._query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.3.0.0@ali-rds\lib\connection.js:38:20)
+    at RDSTransaction.proto._query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.3.0.0@ali-rds\lib\transaction.js:45:26)
+    at proto._query.next (<anonymous>)
+    at onFulfilled (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.4.6.0@co\index.js:65:19)
+    at c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.4.6.0@co\index.js:54:5
+    at Promise (<anonymous>)
+    at RDSTransaction.co (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.4.6.0@co\index.js:50:10)
+    at RDSTransaction.createPromise [as _query] (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.4.6.0@co\index.js:30:15)
+    at RDSTransaction.proto.query (c:\Users\Administrator\Desktop\前端俱乐部\ThousandSunny\vue-components\server\node_modules\.3.0.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: INSERT INTO `user`(`userName`, `sex`, `apartmentId`, `mb`, `uid`) VALUES('1', '1', 'B2B', '1', '1')
+code: 'ER_DUP_ENTRY'
+errno: 1062
+sqlState: '23000'
+index: 0
+name: 'ER_DUP_ENTRYError'
+pid: 24892
+hostname: G-PC
+
