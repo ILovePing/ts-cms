@@ -1,2 +1,2 @@
-start eggClient-start.bat
-start vueClient-start.bat
+start server.bat
+start client.bat

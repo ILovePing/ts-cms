@@ -1,7 +1,7 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : local
+Source Server         : vue-repo
 Source Server Version : 50624
 Source Host           : localhost:3306
 Source Database       : ts-cms
@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50624
 File Encoding         : 65001
 
-Date: 2017-07-20 21:14:14
+Date: 2017-07-21 20:15:22
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -36,21 +36,21 @@ INSERT INTO `apartment` VALUES ('SNS', 'SNS');
 INSERT INTO `apartment` VALUES ('VERIFY', '认证中心');
 
 -- ----------------------------
--- Table structure for record
+-- Table structure for meet
 -- ----------------------------
-DROP TABLE IF EXISTS `record`;
-CREATE TABLE `record` (
-  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '会议记录id',
+DROP TABLE IF EXISTS `meet`;
+CREATE TABLE `meet` (
+  `meetid` int(11) NOT NULL AUTO_INCREMENT COMMENT '会议记录id',
   `uid` varchar(6) CHARACTER SET utf8 DEFAULT NULL,
-  `date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  `topic` varchar(1000) CHARACTER SET utf8 DEFAULT NULL,
-  `brief` varchar(1000) CHARACTER SET utf8 DEFAULT NULL,
-  `qa` varchar(1000) CHARACTER SET utf8 DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  `meetdate` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `meettopic` varchar(1000) CHARACTER SET utf8 DEFAULT NULL,
+  `meetbrief` varchar(1000) CHARACTER SET utf8 DEFAULT NULL,
+  `meetqa` varchar(1000) CHARACTER SET utf8 DEFAULT NULL,
+  PRIMARY KEY (`meetid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- ----------------------------
--- Records of record
+-- Records of meet
 -- ----------------------------
 
 -- ----------------------------
@@ -69,6 +69,40 @@ CREATE TABLE `score` (
 -- ----------------------------
 INSERT INTO `score` VALUES ('1', '20');
 INSERT INTO `score` VALUES ('67', '20');
+
+-- ----------------------------
+-- Table structure for scorelog
+-- ----------------------------
+DROP TABLE IF EXISTS `scorelog`;
+CREATE TABLE `scorelog` (
+  `logid` int(3) unsigned zerofill NOT NULL AUTO_INCREMENT,
+  `uid` varchar(6) DEFAULT NULL,
+  `ruleid` int(3) DEFAULT NULL,
+  `meetid` int(11) DEFAULT NULL,
+  `reason` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
+  PRIMARY KEY (`logid`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+-- Records of scorelog
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for score_rule
+-- ----------------------------
+DROP TABLE IF EXISTS `score_rule`;
+CREATE TABLE `score_rule` (
+  `ruleid` int(3) unsigned zerofill NOT NULL AUTO_INCREMENT,
+  `rulename` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
+  `ruletype` char(1) CHARACTER SET utf8 DEFAULT NULL COMMENT '0代表减分，1代表加分',
+  `rulevalue` tinyint(2) unsigned DEFAULT NULL,
+  PRIMARY KEY (`ruleid`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+-- Records of score_rule
+-- ----------------------------
+INSERT INTO `score_rule` VALUES ('001', '迟到', '0', '5');
 
 -- ----------------------------
 -- Table structure for user
