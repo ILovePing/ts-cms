@@ -577,3 +577,18 @@
 2017-07-21 03:24:38,305 INFO 35575 [egg-watcher:app] watcher start success
 2017-07-21 03:24:38,306 INFO 35575 [egg-redis] instance[0] status OK, redis currentTime: #
 2017-07-21 03:24:38,314 INFO 35575 [egg-mysql] instance[0] status OK, rds currentTime: Fri Jul 21 2017 03:24:38 GMT+0800 (CST)
+2017-07-21 05:47:18,924 WARN 35575 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-07-21 06:48:13,524 WARN 35575 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-07-21 07:48:48,538 WARN 35575 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-07-21 08:50:43,482 WARN 35575 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-07-21 09:51:18,000 WARN 35575 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-07-21 10:52:12,518 WARN 35575 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-07-21 11:52:47,132 WARN 35575 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-07-21 13:54:36,304 WARN 35575 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-07-21 14:55:30,846 WARN 35575 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-07-21 15:56:05,695 WARN 35575 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-07-21 17:44:20,208 WARN 35575 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-07-21 19:32:14,715 WARN 35575 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-07-21 21:20:30,250 WARN 35575 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-07-21 22:50:10,009 WARN 35575 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-07-21 22:50:10,009 WARN 35575 [ClusterClient:Watcher] follower closed, and try to init it again

@@ -946,3 +946,129 @@ name: 'ER_DUP_ENTRYError'
 pid: 35575
 hostname: chenzhengrongdeMacBook-Pro.local
 
+2017-07-21 05:47:18,923 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 3604924ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-21 06:48:13,525 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 3614581ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-21 07:48:48,538 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 3615002ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-21 08:50:43,482 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 3614906ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-21 09:51:18,001 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 3614507ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-21 10:52:12,518 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 3614493ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-21 11:52:47,132 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 3614603ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-21 13:54:36,304 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 3614609ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-21 14:55:30,846 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 3614523ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-21 15:56:05,695 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 3614837ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-21 17:44:20,209 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 6454499ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-21 19:32:14,715 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 6454493ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-21 21:20:30,250 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 6435516ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
+2017-07-21 22:50:10,006 ERROR 24996 nodejs.ClusterClientNoResponseError: client no response in 5359745ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _repeat] (/Users/rick/Desktop/2017.8/ts-cms/server/node_modules/.1.6.5@cluster-client/lib/leader.js:72:23)
+    at Timeout.wrapper [as _onTimeout] (timers.js:425:11)
+    at tryOnTimeout (timers.js:232:11)
+    at Timer.listOnTimeout (timers.js:202:5)
+name: 'ClusterClientNoResponseError'
+pid: 24996
+hostname: chenzhengrongdeMacBook-Pro.local
+
