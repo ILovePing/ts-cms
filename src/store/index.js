@@ -6,6 +6,7 @@ import user from './modules/user'
 import showmsg from './modules/showmsg'
 import login from './modules/login'
 import apartment from './modules/apartment'
+import scoreRule from './modules/scoreRule'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
@@ -15,6 +16,7 @@ export default new Vuex.Store({
     user,
     showmsg,
     login,
-    apartment
+    apartment,
+    scoreRule
   }
 })

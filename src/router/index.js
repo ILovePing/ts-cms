@@ -16,6 +16,10 @@ const routes = [{
     path: '/userConf',
     name:'userConf',
     component: resolve => require(['@/view/UserConf'],resolve)
+  },{
+    path: '/scoreRule',
+    name:'scoreRule',
+    component: resolve => require(['@/view/ScoreRule'],resolve)
   }]
 },];
 export default new Router({

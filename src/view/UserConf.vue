@@ -4,33 +4,33 @@
     <el-col :span="22" :offset="1">
       <el-row style="margin:20px 0;">
         <el-col :span="4" >
-          <el-input v-model="queryContent" auto-complete="off"></el-input>
+          <el-input v-model.trim="queryContent" placeholder="用户名查询" auto-complete="off"></el-input>
         </el-col>
-        <el-col :span="2" :offset="1">
+        <!-- <el-col :span="2" :offset="1">
           <el-button id="query-btn" type="primary" @click="" >查询</el-button>
-        </el-col>
-        <el-col :span="4">
+        </el-col> -->
+        <el-col :span="3" :offset="1">
           <el-button id="newMember-btn" type="primary" @click="dialogFormVisible = true" icon="plus">添加新成员</el-button>
         </el-col>
       </el-row>
       <el-row>
         <el-col :span="24">
-          <el-table :data="userlist" highlight-current-row>
+          <el-table :data="userlistQryedBy" highlight-current-row :default-sort = "{prop: 'createTime', order: 'descending'}">
             <el-table-column type="index" width="50">
             </el-table-column>
             <el-table-column prop="userName" label="姓名">
             </el-table-column>
-            <el-table-column prop="score" label="分数">
+            <el-table-column prop="score" label="分数" sortable>
             </el-table-column>
             <el-table-column prop="uid" label="工号">
             </el-table-column>
             <el-table-column prop="sex" label="性别" :formatter='sexFormatter'>
             </el-table-column>
-            <el-table-column prop="apartmentName" label="部门">
+            <el-table-column prop="apartmentName" sortable label="部门">
             </el-table-column>
             <el-table-column prop="mb" label="手机号码" width="180">
             </el-table-column>
-            <el-table-column prop="createTime" label="加入日期" :formatter='dateFormatter' width="180">
+            <el-table-column prop="createTime" label="加入日期" sortable :formatter='dateFormatter' width="180">
            </el-table-column>
             <el-table-column label="操作" width="180">
               <template scope="scope">
@@ -65,7 +65,7 @@
     </el-form-item>
     <el-form-item label="所属部门" :label-width="formLabelWidth">
       <el-select v-model="form.apartmentId" placeholder="请选择部门">
-        <el-option v-for="apart in apartmentlist" clearable :label="apart.apartmentName" :value="apart.apartmentId"></el-option>
+        <el-option v-for="apart in apartmentlist" clearable :key="apart.apartmentId" :label="apart.apartmentName" :value="apart.apartmentId"></el-option>
       </el-select>
     </el-form-item>
     <el-form-item label="联系方式" :label-width="formLabelWidth">
@@ -89,7 +89,7 @@ import { mapState, mapActions } from 'vuex'
 
     },
     created:function(){
-      this.getUserList()
+      // this.getUserList()
       this.getAptDict()
     },
     data() {
@@ -111,7 +111,17 @@ import { mapState, mapActions } from 'vuex'
       ...mapState({
         userlist: ({user}) => user.userlist,
         apartmentlist: ({apartment}) => apartment.apartmentlist
-      })
+      }),
+      userlistQryedBy(){
+        if(this.queryContent){
+          return this.userlist.filter(user=>{
+            // console.log(user.userName)
+           return -1 < user.userName.indexOf(this.queryContent)
+          })
+        }else{
+          return this.userlist
+        }
+      }
     },
     methods: {
       ...mapActions([

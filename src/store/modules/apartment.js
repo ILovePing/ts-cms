@@ -15,7 +15,7 @@ const actions = {
           store.commit(GET_APARTMENT_DICT,res.data)
         }else{
           store.commit(GET_APARTMENT_DICT_FAILURE)
-          showMsg(store,'更新成功','success')
+          showMsg(store,'暂无数据','success')
         }
       },res => {
         showMsg(store,res.error_msg || '获取数据失败')

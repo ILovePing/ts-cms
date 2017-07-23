@@ -45,13 +45,16 @@ axios.interceptors.response.use(
 
 export  default {
   /*
-   * 获取用户列表信息
+   * 用户user
    * */
   userListQry() {
     return axios.get('/api/user')
   },
   apartmentQry(){
     return axios.get('/api/apartment')
+  },
+  scoreRuleQry() {
+    return axios.get('/api/scoreRule')
   },
   userLogin(postdata){
     return axios.post('/api/login',postdata)
@@ -62,11 +65,15 @@ export  default {
   userInsert(user){
     return axios.post('/api/user',user)
   },
+  scoreRuleInsert(rule){
+    return axios.post('/api/scoreRule',rule)
+  },
   userDelete(uid){
     return axios.delete('/api/user/'+uid)
   },
   userUpdate(user){
     return axios.put('/api/user/'+user.uid,user)
-  }
+  },
+
 
 }
