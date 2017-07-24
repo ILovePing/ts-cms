@@ -16,7 +16,7 @@
         <el-submenu index="1">
           <template slot="title">成员作品</template>
           <el-menu-item-group title="" >
-            <el-menu-item v-for="user in userlist" :key="user.uid" :index="user.userName">{{user.username}}</el-menu-item>
+            <el-menu-item v-for="user in userlist" :key="user.uid" :index="user.userName">{{user.userName}}</el-menu-item>
           </el-menu-item-group>
         </el-submenu>
         <el-menu-item index="2"><router-link to="/scoreRule" tag="div">积分规则设置</router-link></el-menu-item>
