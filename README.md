@@ -4,7 +4,7 @@
 
 # E-R图
 
-![](http://7xnggx.com1.z0.glb.clouddn.com/e-r%E5%9B%BE.png)
+![](http://7xnggx.com1.z0.glb.clouddn.com/e-r%E5%9B%BE1.png)
 
 # changelog
 
